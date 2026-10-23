@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="VTiger CRM Integration Test Suite"
+	parallel="false"
+	preserve-order="true">
+
+	<listeners>
+		<listener
+			class-name="CRM_Vtiger_BITM_Listeners.CRM_Vtiger_BITM_ScreenshotListener" />
+	</listeners>
+
+	<test name="VTiger CRM Integration Tests" preserve-order="true">
+
+		<classes>
+			<!-- 1. Verify login and session creation -->
+			<class
+				name="CRM_Vtiger_BITM_LoginPage.CRM_Vtiger_BITM_LoginPage_ValidTest" />
+
+			<!-- 2. Verify Home page after login -->
+			<class name="CRM_Vtiger_BITM_HomePage.CRM_Vtiger_BITM_HomePageTest" />
+
+			<!-- 3. Verify Project creation and related Project Tasks -->
+			<class name="CRM_Vtiger_BITM_Projects.CRM_Vtiger_BITM_ProjectsTest" />
+			<class
+				name="CRM_Vtiger_BITM_ProjectTasks.CRM_Vtiger_BITM_ProjectTasksTest" />
+
+			<!-- 4. Verify Project Milestones and related Project lookup -->
+			<class
+				name="CRM_Vtiger_BITM_ProjectMilestones.CRM_Vtiger_BITM_ProjectMilestonesTest" />
+
+			<!-- 5. Verify FAQ and Service Contracts modules -->
+			<class name="CRM_Vtiger_BITM_FAQ.CRM_Vtiger_BITM_FAQTest" />
+			<class
+				name="CRM_Vtiger_BITM_ServiceContracts.CRM_Vtiger_BITM_ServiceContractsTest" />
+
+			<!-- 6. Verify invalid-login handling -->
+			<class
+				name="CRM_Vtiger_BITM_LoginPage.CRM_Vtiger_BITM_LoginPage_InvalidValidTest" />
+		</classes>
+
+	</test>
+</suite>

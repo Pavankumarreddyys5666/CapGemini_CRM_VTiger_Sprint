@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [VTiger_Functional_Suite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="CRM_Vtiger_BITM_Listeners.CRM_Vtiger_BITM_FailureScreenshotListener"/>
+  </listeners>
+  <test thread-count="5" name="Functional_Tests(failed)">
+    <groups>
+      <run>
+        <include name="FT"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="CRM_Vtiger_BITM_Projects.CRM_Vtiger_BITM_ProjectsTest">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="dbConnection"/>
+          <include name="searchProjectTest"/>
+          <include name="navigateToApp"/>
+          <include name="afterTest"/>
+          <include name="createProjectTest"/>
+          <include name="closeConnection"/>
+          <include name="verifyProjectNameMandatoryValidation"/>
+          <include name="beforeTest"/>
+        </methods>
+      </class> <!-- CRM_Vtiger_BITM_Projects.CRM_Vtiger_BITM_ProjectsTest -->
+      <class name="CRM_Vtiger_BITM_LoginPage.CRM_Vtiger_BITM_LoginPage_ValidTest">
+        <methods>
+          <include name="verifyLoginWithValidCredentials"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- CRM_Vtiger_BITM_LoginPage.CRM_Vtiger_BITM_LoginPage_ValidTest -->
+      <class name="CRM_Vtiger_BITM_LoginPage.CRM_Vtiger_BITM_LoginPage_InvalidValidTest">
+        <methods>
+          <include name="verifyLoginWithInvalidUsername"/>
+          <include name="tearDown"/>
+          <include name="verifyLoginWithBlankPassword"/>
+          <include name="verifyLoginWithBlankUsername"/>
+          <include name="verifyLoginWithInvalidPassword"/>
+        </methods>
+      </class> <!-- CRM_Vtiger_BITM_LoginPage.CRM_Vtiger_BITM_LoginPage_InvalidValidTest -->
+      <class name="CRM_Vtiger_BITM_HomePage.CRM_Vtiger_BITM_HomePageTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="verifyLogoutOptionIsDisplayed"/>
+          <include name="verifyHomeMenuIsDisplayed"/>
+          <include name="verifyHomePageTitle"/>
+          <include name="verifyHomePageIsDisplayed"/>
+        </methods>
+      </class> <!-- CRM_Vtiger_BITM_HomePage.CRM_Vtiger_BITM_HomePageTest -->
+      <class name="CRM_Vtiger_BITM_ProjectMilestones.CRM_Vtiger_BITM_ProjectMilestonesTest">
+        <methods>
+          <include name="verifySearchMilestone"/>
+          <include name="closeBrowser"/>
+          <include name="dbConnection"/>
+          <include name="navigateToApp"/>
+          <include name="createMilestoneWithValidDetails"/>
+          <include name="afterTest"/>
+          <include name="closeConnection"/>
+          <include name="beforeTest"/>
+        </methods>
+      </class> <!-- CRM_Vtiger_BITM_ProjectMilestones.CRM_Vtiger_BITM_ProjectMilestonesTest -->
+      <class name="CRM_Vtiger_BITM_ProjectTasks.CRM_Vtiger_BITM_ProjectTasksTest">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="navigateToApp"/>
+          <include name="createProjectTaskWithValidDetails"/>
+          <include name="dbConnection"/>
+          <include name="afterTest"/>
+          <include name="closeConnection"/>
+          <include name="beforeTest"/>
+        </methods>
+      </class> <!-- CRM_Vtiger_BITM_ProjectTasks.CRM_Vtiger_BITM_ProjectTasksTest -->
+      <class name="CRM_Vtiger_BITM_FAQ.CRM_Vtiger_BITM_FAQTest">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="verifyFAQPageOpensTest"/>
+          <include name="dbConnection"/>
+          <include name="navigateToApp"/>
+          <include name="verifyFAQSearchTest"/>
+          <include name="afterTest"/>
+          <include name="closeConnection"/>
+          <include name="verifyFAQAnswerCanBeViewedTest"/>
+          <include name="beforeTest"/>
+        </methods>
+      </class> <!-- CRM_Vtiger_BITM_FAQ.CRM_Vtiger_BITM_FAQTest -->
+      <class name="CRM_Vtiger_BITM_ServiceContracts.CRM_Vtiger_BITM_ServiceContractsTest">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="dbConnection"/>
+          <include name="navigateToApp"/>
+          <include name="verifyServiceContractSearchTest"/>
+          <include name="afterTest"/>
+          <include name="closeConnection"/>
+          <include name="beforeTest"/>
+        </methods>
+      </class> <!-- CRM_Vtiger_BITM_ServiceContracts.CRM_Vtiger_BITM_ServiceContractsTest -->
+    </classes>
+  </test> <!-- Functional_Tests(failed) -->
+</suite> <!-- Failed suite [VTiger_Functional_Suite] -->

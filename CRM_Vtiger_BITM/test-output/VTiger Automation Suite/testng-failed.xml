@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [VTiger Automation Suite]" guice-stage="DEVELOPMENT" verbose="2">
+  <test thread-count="5" name="VTiger CRM Module Tests(failed)" verbose="2">
+    <classes>
+      <class name="CRM_Vtiger_BITM_LoginPage.CRM_Vtiger_BITM_LoginPage_ValidTest">
+        <methods>
+          <include name="verifyLoginWithValidCredentials"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- CRM_Vtiger_BITM_LoginPage.CRM_Vtiger_BITM_LoginPage_ValidTest -->
+      <class name="CRM_Vtiger_BITM_LoginPage.CRM_Vtiger_BITM_LoginPage_InvalidValidTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="verifyLoginWithInvalidUsername"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- CRM_Vtiger_BITM_LoginPage.CRM_Vtiger_BITM_LoginPage_InvalidValidTest -->
+    </classes>
+  </test> <!-- VTiger CRM Module Tests(failed) -->
+</suite> <!-- Failed suite [VTiger Automation Suite] -->

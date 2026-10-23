@@ -1,0 +1,831 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="38" passed="38" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Before Suite: Setup started]]>
+    </line>
+    <line>
+      <![CDATA[Before Test: Test execution started]]>
+    </line>
+    <line>
+      <![CDATA[Before Class: Launching browser]]>
+    </line>
+    <line>
+      <![CDATA[Application opened: http://49.249.29.4:8888/index.php]]>
+    </line>
+    <line>
+      <![CDATA[Login form displayed successfully.]]>
+    </line>
+    <line>
+      <![CDATA[Login completed successfully.]]>
+    </line>
+    <line>
+      <![CDATA[After Class: Closing browser]]>
+    </line>
+    <line>
+      <![CDATA[Browser closed successfully.]]>
+    </line>
+    <line>
+      <![CDATA[Before Class: Launching browser]]>
+    </line>
+    <line>
+      <![CDATA[Application opened: http://49.249.29.4:8888/index.php]]>
+    </line>
+    <line>
+      <![CDATA[Login form displayed successfully.]]>
+    </line>
+    <line>
+      <![CDATA[Login completed successfully.]]>
+    </line>
+    <line>
+      <![CDATA[After Class: Closing browser]]>
+    </line>
+    <line>
+      <![CDATA[Browser closed successfully.]]>
+    </line>
+    <line>
+      <![CDATA[Before Class: Launching browser]]>
+    </line>
+    <line>
+      <![CDATA[Application opened: http://49.249.29.4:8888/index.php]]>
+    </line>
+    <line>
+      <![CDATA[Login form displayed successfully.]]>
+    </line>
+    <line>
+      <![CDATA[Login completed successfully.]]>
+    </line>
+    <line>
+      <![CDATA[After Class: Closing browser]]>
+    </line>
+    <line>
+      <![CDATA[Browser closed successfully.]]>
+    </line>
+    <line>
+      <![CDATA[Before Class: Launching browser]]>
+    </line>
+    <line>
+      <![CDATA[Application opened: http://49.249.29.4:8888/index.php]]>
+    </line>
+    <line>
+      <![CDATA[Login form displayed successfully.]]>
+    </line>
+    <line>
+      <![CDATA[Login completed successfully.]]>
+    </line>
+    <line>
+      <![CDATA[After Class: Closing browser]]>
+    </line>
+    <line>
+      <![CDATA[Browser closed successfully.]]>
+    </line>
+    <line>
+      <![CDATA[Before Class: Launching browser]]>
+    </line>
+    <line>
+      <![CDATA[Application opened: http://49.249.29.4:8888/index.php]]>
+    </line>
+    <line>
+      <![CDATA[Login form displayed successfully.]]>
+    </line>
+    <line>
+      <![CDATA[Login completed successfully.]]>
+    </line>
+    <line>
+      <![CDATA[Screenshot saved for negative test: verifyMilestoneNameMandatoryValidation]]>
+    </line>
+    <line>
+      <![CDATA[Screenshot saved for negative test: verifyRelatedToMandatoryValidation]]>
+    </line>
+    <line>
+      <![CDATA[Screenshot saved for negative test: verifyInvalidMilestoneDateValidation]]>
+    </line>
+    <line>
+      <![CDATA[After Class: Closing browser]]>
+    </line>
+    <line>
+      <![CDATA[Browser closed successfully.]]>
+    </line>
+    <line>
+      <![CDATA[Before Class: Launching browser]]>
+    </line>
+    <line>
+      <![CDATA[Application opened: http://49.249.29.4:8888/index.php]]>
+    </line>
+    <line>
+      <![CDATA[Login form displayed successfully.]]>
+    </line>
+    <line>
+      <![CDATA[Login completed successfully.]]>
+    </line>
+    <line>
+      <![CDATA[After Class: Closing browser]]>
+    </line>
+    <line>
+      <![CDATA[Browser closed successfully.]]>
+    </line>
+    <line>
+      <![CDATA[Before Class: Launching browser]]>
+    </line>
+    <line>
+      <![CDATA[Application opened: http://49.249.29.4:8888/index.php]]>
+    </line>
+    <line>
+      <![CDATA[Login form displayed successfully.]]>
+    </line>
+    <line>
+      <![CDATA[Login completed successfully.]]>
+    </line>
+    <line>
+      <![CDATA[After Class: Closing browser]]>
+    </line>
+    <line>
+      <![CDATA[Browser closed successfully.]]>
+    </line>
+    <line>
+      <![CDATA[Before Class: Launching browser]]>
+    </line>
+    <line>
+      <![CDATA[Application opened: http://49.249.29.4:8888/index.php]]>
+    </line>
+    <line>
+      <![CDATA[Login form displayed successfully.]]>
+    </line>
+    <line>
+      <![CDATA[Login validation class detected. Automatic login skipped.]]>
+    </line>
+    <line>
+      <![CDATA[Login page opened successfully.]]>
+    </line>
+    <line>
+      <![CDATA[Screenshot saved for negative test: emptyUsernameAndPassword_Test_Input]]>
+    </line>
+    <line>
+      <![CDATA[PASS: Empty username and password was rejected.]]>
+    </line>
+    <line>
+      <![CDATA[Login page opened successfully.]]>
+    </line>
+    <line>
+      <![CDATA[Screenshot saved for negative test: emptyUsername_Test_Input]]>
+    </line>
+    <line>
+      <![CDATA[PASS: Empty username was rejected.]]>
+    </line>
+    <line>
+      <![CDATA[Login page opened successfully.]]>
+    </line>
+    <line>
+      <![CDATA[Screenshot saved for negative test: emptyPassword_Test_Input]]>
+    </line>
+    <line>
+      <![CDATA[PASS: Empty password was rejected.]]>
+    </line>
+    <line>
+      <![CDATA[Login page opened successfully.]]>
+    </line>
+    <line>
+      <![CDATA[Screenshot saved for negative test: invalidUsername_Test_Input]]>
+    </line>
+    <line>
+      <![CDATA[PASS: Invalid username was rejected.]]>
+    </line>
+    <line>
+      <![CDATA[Login page opened successfully.]]>
+    </line>
+    <line>
+      <![CDATA[Screenshot saved for negative test: invalidPassword_Test_Input]]>
+    </line>
+    <line>
+      <![CDATA[PASS: Invalid password was rejected.]]>
+    </line>
+    <line>
+      <![CDATA[PASS: Sign Out option is displayed.]]>
+    </line>
+    <line>
+      <![CDATA[After Class: Closing browser]]>
+    </line>
+    <line>
+      <![CDATA[Browser closed successfully.]]>
+    </line>
+    <line>
+      <![CDATA[After Test: Test execution completed]]>
+    </line>
+    <line>
+      <![CDATA[After Suite: Cleanup completed]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2026-10-22T07:14:09 IST" name="VTiger CRM Integration Test Suite" finished-at="2026-10-22T07:20:26 IST" duration-ms="377084">
+    <groups>
+      <group name="Negative">
+        <method signature="CRM_Vtiger_BITM_HomePageTest.verifyLogoutOptionHiddenBeforeOpeningProfileMenu()[pri:0, instance:CRM_Vtiger_BITM_HomePage.CRM_Vtiger_BITM_HomePageTest@60015ef5]" name="verifyLogoutOptionHiddenBeforeOpeningProfileMenu" class="CRM_Vtiger_BITM_HomePage.CRM_Vtiger_BITM_HomePageTest"/>
+        <method signature="CRM_Vtiger_BITM_LoginPage_InvalidValidTest.emptyUsernameAndPassword_Test()[pri:1, instance:CRM_Vtiger_BITM_LoginPage.CRM_Vtiger_BITM_LoginPage_InvalidValidTest@dd0c991]" name="emptyUsernameAndPassword_Test" class="CRM_Vtiger_BITM_LoginPage.CRM_Vtiger_BITM_LoginPage_InvalidValidTest"/>
+        <method signature="CRM_Vtiger_BITM_LoginPage_InvalidValidTest.emptyUsername_Test()[pri:2, instance:CRM_Vtiger_BITM_LoginPage.CRM_Vtiger_BITM_LoginPage_InvalidValidTest@dd0c991]" name="emptyUsername_Test" class="CRM_Vtiger_BITM_LoginPage.CRM_Vtiger_BITM_LoginPage_InvalidValidTest"/>
+        <method signature="CRM_Vtiger_BITM_LoginPage_InvalidValidTest.emptyPassword_Test()[pri:3, instance:CRM_Vtiger_BITM_LoginPage.CRM_Vtiger_BITM_LoginPage_InvalidValidTest@dd0c991]" name="emptyPassword_Test" class="CRM_Vtiger_BITM_LoginPage.CRM_Vtiger_BITM_LoginPage_InvalidValidTest"/>
+        <method signature="CRM_Vtiger_BITM_ProjectTasksTest.verifyTaskMandatoryFieldValidation()[pri:3, instance:CRM_Vtiger_BITM_ProjectTasks.CRM_Vtiger_BITM_ProjectTasksTest@1018bde2]" name="verifyTaskMandatoryFieldValidation" class="CRM_Vtiger_BITM_ProjectTasks.CRM_Vtiger_BITM_ProjectTasksTest"/>
+        <method signature="CRM_Vtiger_BITM_ProjectsTest.verifyProjectNameMandatoryValidation()[pri:3, instance:CRM_Vtiger_BITM_Projects.CRM_Vtiger_BITM_ProjectsTest@2f54a33d]" name="verifyProjectNameMandatoryValidation" class="CRM_Vtiger_BITM_Projects.CRM_Vtiger_BITM_ProjectsTest"/>
+        <method signature="CRM_Vtiger_BITM_FAQTest.verifyNonexistentFAQSearchTest()[pri:4, instance:CRM_Vtiger_BITM_FAQ.CRM_Vtiger_BITM_FAQTest@343570b7]" name="verifyNonexistentFAQSearchTest" class="CRM_Vtiger_BITM_FAQ.CRM_Vtiger_BITM_FAQTest"/>
+        <method signature="CRM_Vtiger_BITM_LoginPage_InvalidValidTest.invalidUsername_Test()[pri:4, instance:CRM_Vtiger_BITM_LoginPage.CRM_Vtiger_BITM_LoginPage_InvalidValidTest@dd0c991]" name="invalidUsername_Test" class="CRM_Vtiger_BITM_LoginPage.CRM_Vtiger_BITM_LoginPage_InvalidValidTest"/>
+        <method signature="CRM_Vtiger_BITM_ProjectsTest.verifySearchForNonExistingProject()[pri:4, instance:CRM_Vtiger_BITM_Projects.CRM_Vtiger_BITM_ProjectsTest@2f54a33d]" name="verifySearchForNonExistingProject" class="CRM_Vtiger_BITM_Projects.CRM_Vtiger_BITM_ProjectsTest"/>
+        <method signature="CRM_Vtiger_BITM_ServiceContractsTest.verifyEmptySubjectRejectedTest()[pri:4, instance:CRM_Vtiger_BITM_ServiceContracts.CRM_Vtiger_BITM_ServiceContractsTest@157853da]" name="verifyEmptySubjectRejectedTest" class="CRM_Vtiger_BITM_ServiceContracts.CRM_Vtiger_BITM_ServiceContractsTest"/>
+        <method signature="CRM_Vtiger_BITM_FAQTest.verifyEmptyFAQSearchTest()[pri:5, instance:CRM_Vtiger_BITM_FAQ.CRM_Vtiger_BITM_FAQTest@343570b7]" name="verifyEmptyFAQSearchTest" class="CRM_Vtiger_BITM_FAQ.CRM_Vtiger_BITM_FAQTest"/>
+        <method signature="CRM_Vtiger_BITM_LoginPage_InvalidValidTest.invalidPassword_Test()[pri:5, instance:CRM_Vtiger_BITM_LoginPage.CRM_Vtiger_BITM_LoginPage_InvalidValidTest@dd0c991]" name="invalidPassword_Test" class="CRM_Vtiger_BITM_LoginPage.CRM_Vtiger_BITM_LoginPage_InvalidValidTest"/>
+        <method signature="CRM_Vtiger_BITM_ProjectsTest.verifyCancelProjectCreation()[pri:5, instance:CRM_Vtiger_BITM_Projects.CRM_Vtiger_BITM_ProjectsTest@2f54a33d]" name="verifyCancelProjectCreation" class="CRM_Vtiger_BITM_Projects.CRM_Vtiger_BITM_ProjectsTest"/>
+        <method signature="CRM_Vtiger_BITM_ServiceContractsTest.verifySearchWithNonexistentContractNumberTest()[pri:5, instance:CRM_Vtiger_BITM_ServiceContracts.CRM_Vtiger_BITM_ServiceContractsTest@157853da]" name="verifySearchWithNonexistentContractNumberTest" class="CRM_Vtiger_BITM_ServiceContracts.CRM_Vtiger_BITM_ServiceContractsTest"/>
+        <method signature="CRM_Vtiger_BITM_ProjectMilestonesTest.verifyMilestoneNameMandatoryValidation()[pri:6, instance:CRM_Vtiger_BITM_ProjectMilestones.CRM_Vtiger_BITM_ProjectMilestonesTest@757acd7b]" name="verifyMilestoneNameMandatoryValidation" class="CRM_Vtiger_BITM_ProjectMilestones.CRM_Vtiger_BITM_ProjectMilestonesTest"/>
+        <method signature="CRM_Vtiger_BITM_ProjectMilestonesTest.verifyRelatedToMandatoryValidation()[pri:7, instance:CRM_Vtiger_BITM_ProjectMilestones.CRM_Vtiger_BITM_ProjectMilestonesTest@757acd7b]" name="verifyRelatedToMandatoryValidation" class="CRM_Vtiger_BITM_ProjectMilestones.CRM_Vtiger_BITM_ProjectMilestonesTest"/>
+        <method signature="CRM_Vtiger_BITM_ProjectMilestonesTest.verifyInvalidMilestoneDateValidation()[pri:8, instance:CRM_Vtiger_BITM_ProjectMilestones.CRM_Vtiger_BITM_ProjectMilestonesTest@757acd7b]" name="verifyInvalidMilestoneDateValidation" class="CRM_Vtiger_BITM_ProjectMilestones.CRM_Vtiger_BITM_ProjectMilestonesTest"/>
+        <method signature="CRM_Vtiger_BITM_ProjectTasksTest.verifyRelatedProjectMandatoryValidation()[pri:8, instance:CRM_Vtiger_BITM_ProjectTasks.CRM_Vtiger_BITM_ProjectTasksTest@1018bde2]" name="verifyRelatedProjectMandatoryValidation" class="CRM_Vtiger_BITM_ProjectTasks.CRM_Vtiger_BITM_ProjectTasksTest"/>
+      </group> <!-- Negative -->
+      <group name="Regression">
+        <method signature="CRM_Vtiger_BITM_HomePageTest.verifyLogoutOptionIsDisplayed()[pri:0, instance:CRM_Vtiger_BITM_HomePage.CRM_Vtiger_BITM_HomePageTest@60015ef5]" name="verifyLogoutOptionIsDisplayed" class="CRM_Vtiger_BITM_HomePage.CRM_Vtiger_BITM_HomePageTest"/>
+        <method signature="CRM_Vtiger_BITM_LoginPage_ValidTest.verifyLoginWithValidCredentials()[pri:0, instance:CRM_Vtiger_BITM_LoginPage.CRM_Vtiger_BITM_LoginPage_ValidTest@d21a74c]" name="verifyLoginWithValidCredentials" class="CRM_Vtiger_BITM_LoginPage.CRM_Vtiger_BITM_LoginPage_ValidTest"/>
+        <method signature="CRM_Vtiger_BITM_FAQTest.verifyFAQPageOpensTest()[pri:1, instance:CRM_Vtiger_BITM_FAQ.CRM_Vtiger_BITM_FAQTest@343570b7]" name="verifyFAQPageOpensTest" class="CRM_Vtiger_BITM_FAQ.CRM_Vtiger_BITM_FAQTest"/>
+        <method signature="CRM_Vtiger_BITM_ProjectMilestonesTest.verifyProjectMilestonesPage()[pri:1, instance:CRM_Vtiger_BITM_ProjectMilestones.CRM_Vtiger_BITM_ProjectMilestonesTest@757acd7b]" name="verifyProjectMilestonesPage" class="CRM_Vtiger_BITM_ProjectMilestones.CRM_Vtiger_BITM_ProjectMilestonesTest"/>
+        <method signature="CRM_Vtiger_BITM_ProjectTasksTest.verifyProjectTasksPage()[pri:1, instance:CRM_Vtiger_BITM_ProjectTasks.CRM_Vtiger_BITM_ProjectTasksTest@1018bde2]" name="verifyProjectTasksPage" class="CRM_Vtiger_BITM_ProjectTasks.CRM_Vtiger_BITM_ProjectTasksTest"/>
+        <method signature="CRM_Vtiger_BITM_ProjectsTest.verifyProjectsPage()[pri:1, instance:CRM_Vtiger_BITM_Projects.CRM_Vtiger_BITM_ProjectsTest@2f54a33d]" name="verifyProjectsPage" class="CRM_Vtiger_BITM_Projects.CRM_Vtiger_BITM_ProjectsTest"/>
+        <method signature="CRM_Vtiger_BITM_ServiceContractsTest.verifyServiceContractsPageOpensTest()[pri:1, instance:CRM_Vtiger_BITM_ServiceContracts.CRM_Vtiger_BITM_ServiceContractsTest@157853da]" name="verifyServiceContractsPageOpensTest" class="CRM_Vtiger_BITM_ServiceContracts.CRM_Vtiger_BITM_ServiceContractsTest"/>
+        <method signature="CRM_Vtiger_BITM_FAQTest.verifyFAQSearchTest()[pri:2, instance:CRM_Vtiger_BITM_FAQ.CRM_Vtiger_BITM_FAQTest@343570b7]" name="verifyFAQSearchTest" class="CRM_Vtiger_BITM_FAQ.CRM_Vtiger_BITM_FAQTest"/>
+        <method signature="CRM_Vtiger_BITM_ProjectMilestonesTest.verifySearchMilestone()[pri:2, instance:CRM_Vtiger_BITM_ProjectMilestones.CRM_Vtiger_BITM_ProjectMilestonesTest@757acd7b]" name="verifySearchMilestone" class="CRM_Vtiger_BITM_ProjectMilestones.CRM_Vtiger_BITM_ProjectMilestonesTest"/>
+        <method signature="CRM_Vtiger_BITM_ProjectTasksTest.verifyCreateProjectTaskForm()[pri:2, instance:CRM_Vtiger_BITM_ProjectTasks.CRM_Vtiger_BITM_ProjectTasksTest@1018bde2]" name="verifyCreateProjectTaskForm" class="CRM_Vtiger_BITM_ProjectTasks.CRM_Vtiger_BITM_ProjectTasksTest"/>
+        <method signature="CRM_Vtiger_BITM_ProjectsTest.verifyCreateProjectForm()[pri:2, instance:CRM_Vtiger_BITM_Projects.CRM_Vtiger_BITM_ProjectsTest@2f54a33d]" name="verifyCreateProjectForm" class="CRM_Vtiger_BITM_Projects.CRM_Vtiger_BITM_ProjectsTest"/>
+        <method signature="CRM_Vtiger_BITM_ServiceContractsTest.verifyCreateServiceContractFormTest()[pri:2, instance:CRM_Vtiger_BITM_ServiceContracts.CRM_Vtiger_BITM_ServiceContractsTest@157853da]" name="verifyCreateServiceContractFormTest" class="CRM_Vtiger_BITM_ServiceContracts.CRM_Vtiger_BITM_ServiceContractsTest"/>
+        <method signature="CRM_Vtiger_BITM_FAQTest.verifyFAQAnswerCanBeViewedTest()[pri:3, instance:CRM_Vtiger_BITM_FAQ.CRM_Vtiger_BITM_FAQTest@343570b7]" name="verifyFAQAnswerCanBeViewedTest" class="CRM_Vtiger_BITM_FAQ.CRM_Vtiger_BITM_FAQTest"/>
+        <method signature="CRM_Vtiger_BITM_ProjectMilestonesTest.verifyCreateMilestoneForm()[pri:3, instance:CRM_Vtiger_BITM_ProjectMilestones.CRM_Vtiger_BITM_ProjectMilestonesTest@757acd7b]" name="verifyCreateMilestoneForm" class="CRM_Vtiger_BITM_ProjectMilestones.CRM_Vtiger_BITM_ProjectMilestonesTest"/>
+        <method signature="CRM_Vtiger_BITM_ServiceContractsTest.createServiceContractWithValidDetailsTest()[pri:3, instance:CRM_Vtiger_BITM_ServiceContracts.CRM_Vtiger_BITM_ServiceContractsTest@157853da]" name="createServiceContractWithValidDetailsTest" class="CRM_Vtiger_BITM_ServiceContracts.CRM_Vtiger_BITM_ServiceContractsTest"/>
+        <method signature="CRM_Vtiger_BITM_ProjectMilestonesTest.verifyRelatedToLookup()[pri:4, instance:CRM_Vtiger_BITM_ProjectMilestones.CRM_Vtiger_BITM_ProjectMilestonesTest@757acd7b]" name="verifyRelatedToLookup" class="CRM_Vtiger_BITM_ProjectMilestones.CRM_Vtiger_BITM_ProjectMilestonesTest"/>
+        <method signature="CRM_Vtiger_BITM_ProjectTasksTest.createProjectTaskWithValidDetails()[pri:4, instance:CRM_Vtiger_BITM_ProjectTasks.CRM_Vtiger_BITM_ProjectTasksTest@1018bde2]" name="createProjectTaskWithValidDetails" class="CRM_Vtiger_BITM_ProjectTasks.CRM_Vtiger_BITM_ProjectTasksTest"/>
+        <method signature="CRM_Vtiger_BITM_ProjectMilestonesTest.createMilestoneWithValidDetails()[pri:5, instance:CRM_Vtiger_BITM_ProjectMilestones.CRM_Vtiger_BITM_ProjectMilestonesTest@757acd7b]" name="createMilestoneWithValidDetails" class="CRM_Vtiger_BITM_ProjectMilestones.CRM_Vtiger_BITM_ProjectMilestonesTest"/>
+        <method signature="CRM_Vtiger_BITM_LoginPage_InvalidValidTest.verifyLogoutOptionIsDisplayed()[pri:6, instance:CRM_Vtiger_BITM_LoginPage.CRM_Vtiger_BITM_LoginPage_InvalidValidTest@dd0c991]" name="verifyLogoutOptionIsDisplayed" class="CRM_Vtiger_BITM_LoginPage.CRM_Vtiger_BITM_LoginPage_InvalidValidTest"/>
+      </group> <!-- Regression -->
+      <group name="Smoke">
+        <method signature="CRM_Vtiger_BITM_HomePageTest.verifyHomePageIsDisplayed()[pri:0, instance:CRM_Vtiger_BITM_HomePage.CRM_Vtiger_BITM_HomePageTest@60015ef5]" name="verifyHomePageIsDisplayed" class="CRM_Vtiger_BITM_HomePage.CRM_Vtiger_BITM_HomePageTest"/>
+        <method signature="CRM_Vtiger_BITM_LoginPage_ValidTest.verifyLoginWithValidCredentials()[pri:0, instance:CRM_Vtiger_BITM_LoginPage.CRM_Vtiger_BITM_LoginPage_ValidTest@d21a74c]" name="verifyLoginWithValidCredentials" class="CRM_Vtiger_BITM_LoginPage.CRM_Vtiger_BITM_LoginPage_ValidTest"/>
+        <method signature="CRM_Vtiger_BITM_ServiceContractsTest.verifyServiceContractsPageOpensTest()[pri:1, instance:CRM_Vtiger_BITM_ServiceContracts.CRM_Vtiger_BITM_ServiceContractsTest@157853da]" name="verifyServiceContractsPageOpensTest" class="CRM_Vtiger_BITM_ServiceContracts.CRM_Vtiger_BITM_ServiceContractsTest"/>
+        <method signature="CRM_Vtiger_BITM_ProjectTasksTest.verifyCreateProjectTaskForm()[pri:2, instance:CRM_Vtiger_BITM_ProjectTasks.CRM_Vtiger_BITM_ProjectTasksTest@1018bde2]" name="verifyCreateProjectTaskForm" class="CRM_Vtiger_BITM_ProjectTasks.CRM_Vtiger_BITM_ProjectTasksTest"/>
+        <method signature="CRM_Vtiger_BITM_ProjectMilestonesTest.verifyCreateMilestoneForm()[pri:3, instance:CRM_Vtiger_BITM_ProjectMilestones.CRM_Vtiger_BITM_ProjectMilestonesTest@757acd7b]" name="verifyCreateMilestoneForm" class="CRM_Vtiger_BITM_ProjectMilestones.CRM_Vtiger_BITM_ProjectMilestonesTest"/>
+        <method signature="CRM_Vtiger_BITM_ProjectTasksTest.createProjectTaskWithValidDetails()[pri:4, instance:CRM_Vtiger_BITM_ProjectTasks.CRM_Vtiger_BITM_ProjectTasksTest@1018bde2]" name="createProjectTaskWithValidDetails" class="CRM_Vtiger_BITM_ProjectTasks.CRM_Vtiger_BITM_ProjectTasksTest"/>
+        <method signature="CRM_Vtiger_BITM_ProjectMilestonesTest.createMilestoneWithValidDetails()[pri:5, instance:CRM_Vtiger_BITM_ProjectMilestones.CRM_Vtiger_BITM_ProjectMilestonesTest@757acd7b]" name="createMilestoneWithValidDetails" class="CRM_Vtiger_BITM_ProjectMilestones.CRM_Vtiger_BITM_ProjectMilestonesTest"/>
+      </group> <!-- Smoke -->
+      <group name="FT">
+        <method signature="CRM_Vtiger_BITM_HomePageTest.verifyHomePageIsDisplayed()[pri:0, instance:CRM_Vtiger_BITM_HomePage.CRM_Vtiger_BITM_HomePageTest@60015ef5]" name="verifyHomePageIsDisplayed" class="CRM_Vtiger_BITM_HomePage.CRM_Vtiger_BITM_HomePageTest"/>
+        <method signature="CRM_Vtiger_BITM_HomePageTest.verifyLogoutOptionHiddenBeforeOpeningProfileMenu()[pri:0, instance:CRM_Vtiger_BITM_HomePage.CRM_Vtiger_BITM_HomePageTest@60015ef5]" name="verifyLogoutOptionHiddenBeforeOpeningProfileMenu" class="CRM_Vtiger_BITM_HomePage.CRM_Vtiger_BITM_HomePageTest"/>
+        <method signature="CRM_Vtiger_BITM_HomePageTest.verifyLogoutOptionIsDisplayed()[pri:0, instance:CRM_Vtiger_BITM_HomePage.CRM_Vtiger_BITM_HomePageTest@60015ef5]" name="verifyLogoutOptionIsDisplayed" class="CRM_Vtiger_BITM_HomePage.CRM_Vtiger_BITM_HomePageTest"/>
+        <method signature="CRM_Vtiger_BITM_LoginPage_ValidTest.verifyLoginWithValidCredentials()[pri:0, instance:CRM_Vtiger_BITM_LoginPage.CRM_Vtiger_BITM_LoginPage_ValidTest@d21a74c]" name="verifyLoginWithValidCredentials" class="CRM_Vtiger_BITM_LoginPage.CRM_Vtiger_BITM_LoginPage_ValidTest"/>
+        <method signature="CRM_Vtiger_BITM_FAQTest.verifyFAQPageOpensTest()[pri:1, instance:CRM_Vtiger_BITM_FAQ.CRM_Vtiger_BITM_FAQTest@343570b7]" name="verifyFAQPageOpensTest" class="CRM_Vtiger_BITM_FAQ.CRM_Vtiger_BITM_FAQTest"/>
+        <method signature="CRM_Vtiger_BITM_LoginPage_InvalidValidTest.emptyUsernameAndPassword_Test()[pri:1, instance:CRM_Vtiger_BITM_LoginPage.CRM_Vtiger_BITM_LoginPage_InvalidValidTest@dd0c991]" name="emptyUsernameAndPassword_Test" class="CRM_Vtiger_BITM_LoginPage.CRM_Vtiger_BITM_LoginPage_InvalidValidTest"/>
+        <method signature="CRM_Vtiger_BITM_ProjectMilestonesTest.verifyProjectMilestonesPage()[pri:1, instance:CRM_Vtiger_BITM_ProjectMilestones.CRM_Vtiger_BITM_ProjectMilestonesTest@757acd7b]" name="verifyProjectMilestonesPage" class="CRM_Vtiger_BITM_ProjectMilestones.CRM_Vtiger_BITM_ProjectMilestonesTest"/>
+        <method signature="CRM_Vtiger_BITM_ProjectTasksTest.verifyProjectTasksPage()[pri:1, instance:CRM_Vtiger_BITM_ProjectTasks.CRM_Vtiger_BITM_ProjectTasksTest@1018bde2]" name="verifyProjectTasksPage" class="CRM_Vtiger_BITM_ProjectTasks.CRM_Vtiger_BITM_ProjectTasksTest"/>
+        <method signature="CRM_Vtiger_BITM_ProjectsTest.verifyProjectsPage()[pri:1, instance:CRM_Vtiger_BITM_Projects.CRM_Vtiger_BITM_ProjectsTest@2f54a33d]" name="verifyProjectsPage" class="CRM_Vtiger_BITM_Projects.CRM_Vtiger_BITM_ProjectsTest"/>
+        <method signature="CRM_Vtiger_BITM_ServiceContractsTest.verifyServiceContractsPageOpensTest()[pri:1, instance:CRM_Vtiger_BITM_ServiceContracts.CRM_Vtiger_BITM_ServiceContractsTest@157853da]" name="verifyServiceContractsPageOpensTest" class="CRM_Vtiger_BITM_ServiceContracts.CRM_Vtiger_BITM_ServiceContractsTest"/>
+        <method signature="CRM_Vtiger_BITM_FAQTest.verifyFAQSearchTest()[pri:2, instance:CRM_Vtiger_BITM_FAQ.CRM_Vtiger_BITM_FAQTest@343570b7]" name="verifyFAQSearchTest" class="CRM_Vtiger_BITM_FAQ.CRM_Vtiger_BITM_FAQTest"/>
+        <method signature="CRM_Vtiger_BITM_LoginPage_InvalidValidTest.emptyUsername_Test()[pri:2, instance:CRM_Vtiger_BITM_LoginPage.CRM_Vtiger_BITM_LoginPage_InvalidValidTest@dd0c991]" name="emptyUsername_Test" class="CRM_Vtiger_BITM_LoginPage.CRM_Vtiger_BITM_LoginPage_InvalidValidTest"/>
+        <method signature="CRM_Vtiger_BITM_ProjectMilestonesTest.verifySearchMilestone()[pri:2, instance:CRM_Vtiger_BITM_ProjectMilestones.CRM_Vtiger_BITM_ProjectMilestonesTest@757acd7b]" name="verifySearchMilestone" class="CRM_Vtiger_BITM_ProjectMilestones.CRM_Vtiger_BITM_ProjectMilestonesTest"/>
+        <method signature="CRM_Vtiger_BITM_ProjectTasksTest.verifyCreateProjectTaskForm()[pri:2, instance:CRM_Vtiger_BITM_ProjectTasks.CRM_Vtiger_BITM_ProjectTasksTest@1018bde2]" name="verifyCreateProjectTaskForm" class="CRM_Vtiger_BITM_ProjectTasks.CRM_Vtiger_BITM_ProjectTasksTest"/>
+        <method signature="CRM_Vtiger_BITM_ProjectsTest.verifyCreateProjectForm()[pri:2, instance:CRM_Vtiger_BITM_Projects.CRM_Vtiger_BITM_ProjectsTest@2f54a33d]" name="verifyCreateProjectForm" class="CRM_Vtiger_BITM_Projects.CRM_Vtiger_BITM_ProjectsTest"/>
+        <method signature="CRM_Vtiger_BITM_ServiceContractsTest.verifyCreateServiceContractFormTest()[pri:2, instance:CRM_Vtiger_BITM_ServiceContracts.CRM_Vtiger_BITM_ServiceContractsTest@157853da]" name="verifyCreateServiceContractFormTest" class="CRM_Vtiger_BITM_ServiceContracts.CRM_Vtiger_BITM_ServiceContractsTest"/>
+        <method signature="CRM_Vtiger_BITM_FAQTest.verifyFAQAnswerCanBeViewedTest()[pri:3, instance:CRM_Vtiger_BITM_FAQ.CRM_Vtiger_BITM_FAQTest@343570b7]" name="verifyFAQAnswerCanBeViewedTest" class="CRM_Vtiger_BITM_FAQ.CRM_Vtiger_BITM_FAQTest"/>
+        <method signature="CRM_Vtiger_BITM_LoginPage_InvalidValidTest.emptyPassword_Test()[pri:3, instance:CRM_Vtiger_BITM_LoginPage.CRM_Vtiger_BITM_LoginPage_InvalidValidTest@dd0c991]" name="emptyPassword_Test" class="CRM_Vtiger_BITM_LoginPage.CRM_Vtiger_BITM_LoginPage_InvalidValidTest"/>
+        <method signature="CRM_Vtiger_BITM_ProjectMilestonesTest.verifyCreateMilestoneForm()[pri:3, instance:CRM_Vtiger_BITM_ProjectMilestones.CRM_Vtiger_BITM_ProjectMilestonesTest@757acd7b]" name="verifyCreateMilestoneForm" class="CRM_Vtiger_BITM_ProjectMilestones.CRM_Vtiger_BITM_ProjectMilestonesTest"/>
+        <method signature="CRM_Vtiger_BITM_ProjectTasksTest.verifyTaskMandatoryFieldValidation()[pri:3, instance:CRM_Vtiger_BITM_ProjectTasks.CRM_Vtiger_BITM_ProjectTasksTest@1018bde2]" name="verifyTaskMandatoryFieldValidation" class="CRM_Vtiger_BITM_ProjectTasks.CRM_Vtiger_BITM_ProjectTasksTest"/>
+        <method signature="CRM_Vtiger_BITM_ProjectsTest.verifyProjectNameMandatoryValidation()[pri:3, instance:CRM_Vtiger_BITM_Projects.CRM_Vtiger_BITM_ProjectsTest@2f54a33d]" name="verifyProjectNameMandatoryValidation" class="CRM_Vtiger_BITM_Projects.CRM_Vtiger_BITM_ProjectsTest"/>
+        <method signature="CRM_Vtiger_BITM_ServiceContractsTest.createServiceContractWithValidDetailsTest()[pri:3, instance:CRM_Vtiger_BITM_ServiceContracts.CRM_Vtiger_BITM_ServiceContractsTest@157853da]" name="createServiceContractWithValidDetailsTest" class="CRM_Vtiger_BITM_ServiceContracts.CRM_Vtiger_BITM_ServiceContractsTest"/>
+        <method signature="CRM_Vtiger_BITM_FAQTest.verifyNonexistentFAQSearchTest()[pri:4, instance:CRM_Vtiger_BITM_FAQ.CRM_Vtiger_BITM_FAQTest@343570b7]" name="verifyNonexistentFAQSearchTest" class="CRM_Vtiger_BITM_FAQ.CRM_Vtiger_BITM_FAQTest"/>
+        <method signature="CRM_Vtiger_BITM_LoginPage_InvalidValidTest.invalidUsername_Test()[pri:4, instance:CRM_Vtiger_BITM_LoginPage.CRM_Vtiger_BITM_LoginPage_InvalidValidTest@dd0c991]" name="invalidUsername_Test" class="CRM_Vtiger_BITM_LoginPage.CRM_Vtiger_BITM_LoginPage_InvalidValidTest"/>
+        <method signature="CRM_Vtiger_BITM_ProjectMilestonesTest.verifyRelatedToLookup()[pri:4, instance:CRM_Vtiger_BITM_ProjectMilestones.CRM_Vtiger_BITM_ProjectMilestonesTest@757acd7b]" name="verifyRelatedToLookup" class="CRM_Vtiger_BITM_ProjectMilestones.CRM_Vtiger_BITM_ProjectMilestonesTest"/>
+        <method signature="CRM_Vtiger_BITM_ProjectTasksTest.createProjectTaskWithValidDetails()[pri:4, instance:CRM_Vtiger_BITM_ProjectTasks.CRM_Vtiger_BITM_ProjectTasksTest@1018bde2]" name="createProjectTaskWithValidDetails" class="CRM_Vtiger_BITM_ProjectTasks.CRM_Vtiger_BITM_ProjectTasksTest"/>
+        <method signature="CRM_Vtiger_BITM_ProjectsTest.verifySearchForNonExistingProject()[pri:4, instance:CRM_Vtiger_BITM_Projects.CRM_Vtiger_BITM_ProjectsTest@2f54a33d]" name="verifySearchForNonExistingProject" class="CRM_Vtiger_BITM_Projects.CRM_Vtiger_BITM_ProjectsTest"/>
+        <method signature="CRM_Vtiger_BITM_ServiceContractsTest.verifyEmptySubjectRejectedTest()[pri:4, instance:CRM_Vtiger_BITM_ServiceContracts.CRM_Vtiger_BITM_ServiceContractsTest@157853da]" name="verifyEmptySubjectRejectedTest" class="CRM_Vtiger_BITM_ServiceContracts.CRM_Vtiger_BITM_ServiceContractsTest"/>
+        <method signature="CRM_Vtiger_BITM_FAQTest.verifyEmptyFAQSearchTest()[pri:5, instance:CRM_Vtiger_BITM_FAQ.CRM_Vtiger_BITM_FAQTest@343570b7]" name="verifyEmptyFAQSearchTest" class="CRM_Vtiger_BITM_FAQ.CRM_Vtiger_BITM_FAQTest"/>
+        <method signature="CRM_Vtiger_BITM_LoginPage_InvalidValidTest.invalidPassword_Test()[pri:5, instance:CRM_Vtiger_BITM_LoginPage.CRM_Vtiger_BITM_LoginPage_InvalidValidTest@dd0c991]" name="invalidPassword_Test" class="CRM_Vtiger_BITM_LoginPage.CRM_Vtiger_BITM_LoginPage_InvalidValidTest"/>
+        <method signature="CRM_Vtiger_BITM_ProjectMilestonesTest.createMilestoneWithValidDetails()[pri:5, instance:CRM_Vtiger_BITM_ProjectMilestones.CRM_Vtiger_BITM_ProjectMilestonesTest@757acd7b]" name="createMilestoneWithValidDetails" class="CRM_Vtiger_BITM_ProjectMilestones.CRM_Vtiger_BITM_ProjectMilestonesTest"/>
+        <method signature="CRM_Vtiger_BITM_ProjectsTest.verifyCancelProjectCreation()[pri:5, instance:CRM_Vtiger_BITM_Projects.CRM_Vtiger_BITM_ProjectsTest@2f54a33d]" name="verifyCancelProjectCreation" class="CRM_Vtiger_BITM_Projects.CRM_Vtiger_BITM_ProjectsTest"/>
+        <method signature="CRM_Vtiger_BITM_ServiceContractsTest.verifySearchWithNonexistentContractNumberTest()[pri:5, instance:CRM_Vtiger_BITM_ServiceContracts.CRM_Vtiger_BITM_ServiceContractsTest@157853da]" name="verifySearchWithNonexistentContractNumberTest" class="CRM_Vtiger_BITM_ServiceContracts.CRM_Vtiger_BITM_ServiceContractsTest"/>
+        <method signature="CRM_Vtiger_BITM_LoginPage_InvalidValidTest.verifyLogoutOptionIsDisplayed()[pri:6, instance:CRM_Vtiger_BITM_LoginPage.CRM_Vtiger_BITM_LoginPage_InvalidValidTest@dd0c991]" name="verifyLogoutOptionIsDisplayed" class="CRM_Vtiger_BITM_LoginPage.CRM_Vtiger_BITM_LoginPage_InvalidValidTest"/>
+        <method signature="CRM_Vtiger_BITM_ProjectMilestonesTest.verifyMilestoneNameMandatoryValidation()[pri:6, instance:CRM_Vtiger_BITM_ProjectMilestones.CRM_Vtiger_BITM_ProjectMilestonesTest@757acd7b]" name="verifyMilestoneNameMandatoryValidation" class="CRM_Vtiger_BITM_ProjectMilestones.CRM_Vtiger_BITM_ProjectMilestonesTest"/>
+        <method signature="CRM_Vtiger_BITM_ProjectMilestonesTest.verifyRelatedToMandatoryValidation()[pri:7, instance:CRM_Vtiger_BITM_ProjectMilestones.CRM_Vtiger_BITM_ProjectMilestonesTest@757acd7b]" name="verifyRelatedToMandatoryValidation" class="CRM_Vtiger_BITM_ProjectMilestones.CRM_Vtiger_BITM_ProjectMilestonesTest"/>
+        <method signature="CRM_Vtiger_BITM_ProjectMilestonesTest.verifyInvalidMilestoneDateValidation()[pri:8, instance:CRM_Vtiger_BITM_ProjectMilestones.CRM_Vtiger_BITM_ProjectMilestonesTest@757acd7b]" name="verifyInvalidMilestoneDateValidation" class="CRM_Vtiger_BITM_ProjectMilestones.CRM_Vtiger_BITM_ProjectMilestonesTest"/>
+        <method signature="CRM_Vtiger_BITM_ProjectTasksTest.verifyRelatedProjectMandatoryValidation()[pri:8, instance:CRM_Vtiger_BITM_ProjectTasks.CRM_Vtiger_BITM_ProjectTasksTest@1018bde2]" name="verifyRelatedProjectMandatoryValidation" class="CRM_Vtiger_BITM_ProjectTasks.CRM_Vtiger_BITM_ProjectTasksTest"/>
+      </group> <!-- FT -->
+    </groups>
+    <test started-at="2026-10-22T07:14:09 IST" name="VTiger CRM Integration Tests" finished-at="2026-10-22T07:20:26 IST" duration-ms="377084">
+      <class name="CRM_Vtiger_BITM_LoginPage.CRM_Vtiger_BITM_LoginPage_ValidTest">
+        <test-method is-config="true" signature="dbConnection()[pri:0, instance:CRM_Vtiger_BITM_LoginPage.CRM_Vtiger_BITM_LoginPage_ValidTest@d21a74c]" started-at="2026-10-22T07:14:09 IST" name="dbConnection" finished-at="2026-10-22T07:14:09 IST" duration-ms="10" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Before Suite: Setup started]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- dbConnection -->
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:CRM_Vtiger_BITM_LoginPage.CRM_Vtiger_BITM_LoginPage_ValidTest@d21a74c]" started-at="2026-10-22T07:14:09 IST" name="beforeTest" finished-at="2026-10-22T07:14:09 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Before Test: Test execution started]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method is-config="true" signature="navigateToApp(java.lang.String)[pri:0, instance:CRM_Vtiger_BITM_LoginPage.CRM_Vtiger_BITM_LoginPage_ValidTest@d21a74c]" started-at="2026-10-22T07:14:09 IST" name="navigateToApp" finished-at="2026-10-22T07:14:40 IST" duration-ms="31269" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Before Class: Launching browser]]>
+            </line>
+            <line>
+              <![CDATA[Application opened: http://49.249.29.4:8888/index.php]]>
+            </line>
+            <line>
+              <![CDATA[Login form displayed successfully.]]>
+            </line>
+            <line>
+              <![CDATA[Login completed successfully.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- navigateToApp -->
+        <test-method signature="verifyLoginWithValidCredentials()[pri:0, instance:CRM_Vtiger_BITM_LoginPage.CRM_Vtiger_BITM_LoginPage_ValidTest@d21a74c]" started-at="2026-10-22T07:14:40 IST" name="verifyLoginWithValidCredentials" finished-at="2026-10-22T07:14:51 IST" duration-ms="10375" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginWithValidCredentials -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:CRM_Vtiger_BITM_LoginPage.CRM_Vtiger_BITM_LoginPage_ValidTest@d21a74c]" started-at="2026-10-22T07:14:51 IST" name="closeBrowser" finished-at="2026-10-22T07:14:51 IST" duration-ms="190" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[After Class: Closing browser]]>
+            </line>
+            <line>
+              <![CDATA[Browser closed successfully.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:CRM_Vtiger_BITM_LoginPage.CRM_Vtiger_BITM_LoginPage_ValidTest@d21a74c]" started-at="2026-10-22T07:20:26 IST" name="afterTest" finished-at="2026-10-22T07:20:26 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[After Test: Test execution completed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method is-config="true" signature="closeConnection()[pri:0, instance:CRM_Vtiger_BITM_LoginPage.CRM_Vtiger_BITM_LoginPage_ValidTest@d21a74c]" started-at="2026-10-22T07:20:26 IST" name="closeConnection" finished-at="2026-10-22T07:20:26 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[After Suite: Cleanup completed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- closeConnection -->
+      </class> <!-- CRM_Vtiger_BITM_LoginPage.CRM_Vtiger_BITM_LoginPage_ValidTest -->
+      <class name="CRM_Vtiger_BITM_ProjectTasks.CRM_Vtiger_BITM_ProjectTasksTest">
+        <test-method is-config="true" signature="navigateToApp(java.lang.String)[pri:0, instance:CRM_Vtiger_BITM_ProjectTasks.CRM_Vtiger_BITM_ProjectTasksTest@1018bde2]" started-at="2026-10-22T07:16:04 IST" name="navigateToApp" finished-at="2026-10-22T07:16:34 IST" duration-ms="30337" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Before Class: Launching browser]]>
+            </line>
+            <line>
+              <![CDATA[Application opened: http://49.249.29.4:8888/index.php]]>
+            </line>
+            <line>
+              <![CDATA[Login form displayed successfully.]]>
+            </line>
+            <line>
+              <![CDATA[Login completed successfully.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- navigateToApp -->
+        <test-method signature="verifyProjectTasksPage()[pri:1, instance:CRM_Vtiger_BITM_ProjectTasks.CRM_Vtiger_BITM_ProjectTasksTest@1018bde2]" started-at="2026-10-22T07:16:34 IST" name="verifyProjectTasksPage" finished-at="2026-10-22T07:16:36 IST" duration-ms="1616" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyProjectTasksPage -->
+        <test-method signature="verifyCreateProjectTaskForm()[pri:2, instance:CRM_Vtiger_BITM_ProjectTasks.CRM_Vtiger_BITM_ProjectTasksTest@1018bde2]" started-at="2026-10-22T07:16:36 IST" name="verifyCreateProjectTaskForm" finished-at="2026-10-22T07:16:38 IST" duration-ms="1429" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCreateProjectTaskForm -->
+        <test-method signature="verifyTaskMandatoryFieldValidation()[pri:3, instance:CRM_Vtiger_BITM_ProjectTasks.CRM_Vtiger_BITM_ProjectTasksTest@1018bde2]" started-at="2026-10-22T07:16:38 IST" name="verifyTaskMandatoryFieldValidation" finished-at="2026-10-22T07:16:39 IST" duration-ms="1519" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTaskMandatoryFieldValidation -->
+        <test-method signature="createProjectTaskWithValidDetails()[pri:4, instance:CRM_Vtiger_BITM_ProjectTasks.CRM_Vtiger_BITM_ProjectTasksTest@1018bde2]" started-at="2026-10-22T07:16:39 IST" name="createProjectTaskWithValidDetails" finished-at="2026-10-22T07:16:42 IST" duration-ms="3023" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createProjectTaskWithValidDetails -->
+        <test-method signature="verifyRelatedProjectMandatoryValidation()[pri:8, instance:CRM_Vtiger_BITM_ProjectTasks.CRM_Vtiger_BITM_ProjectTasksTest@1018bde2]" started-at="2026-10-22T07:16:42 IST" name="verifyRelatedProjectMandatoryValidation" finished-at="2026-10-22T07:16:44 IST" duration-ms="1568" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyRelatedProjectMandatoryValidation -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:CRM_Vtiger_BITM_ProjectTasks.CRM_Vtiger_BITM_ProjectTasksTest@1018bde2]" started-at="2026-10-22T07:16:44 IST" name="closeBrowser" finished-at="2026-10-22T07:16:44 IST" duration-ms="164" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[After Class: Closing browser]]>
+            </line>
+            <line>
+              <![CDATA[Browser closed successfully.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- CRM_Vtiger_BITM_ProjectTasks.CRM_Vtiger_BITM_ProjectTasksTest -->
+      <class name="CRM_Vtiger_BITM_LoginPage.CRM_Vtiger_BITM_LoginPage_InvalidValidTest">
+        <test-method is-config="true" signature="navigateToApp(java.lang.String)[pri:0, instance:CRM_Vtiger_BITM_LoginPage.CRM_Vtiger_BITM_LoginPage_InvalidValidTest@dd0c991]" started-at="2026-10-22T07:19:50 IST" name="navigateToApp" finished-at="2026-10-22T07:19:51 IST" duration-ms="1144" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Before Class: Launching browser]]>
+            </line>
+            <line>
+              <![CDATA[Application opened: http://49.249.29.4:8888/index.php]]>
+            </line>
+            <line>
+              <![CDATA[Login form displayed successfully.]]>
+            </line>
+            <line>
+              <![CDATA[Login validation class detected. Automatic login skipped.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- navigateToApp -->
+        <test-method signature="emptyUsernameAndPassword_Test()[pri:1, instance:CRM_Vtiger_BITM_LoginPage.CRM_Vtiger_BITM_LoginPage_InvalidValidTest@dd0c991]" started-at="2026-10-22T07:19:51 IST" name="emptyUsernameAndPassword_Test" finished-at="2026-10-22T07:19:53 IST" duration-ms="1360" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Login page opened successfully.]]>
+            </line>
+            <line>
+              <![CDATA[Screenshot saved for negative test: emptyUsernameAndPassword_Test_Input]]>
+            </line>
+            <line>
+              <![CDATA[PASS: Empty username and password was rejected.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- emptyUsernameAndPassword_Test -->
+        <test-method signature="emptyUsername_Test()[pri:2, instance:CRM_Vtiger_BITM_LoginPage.CRM_Vtiger_BITM_LoginPage_InvalidValidTest@dd0c991]" started-at="2026-10-22T07:19:53 IST" name="emptyUsername_Test" finished-at="2026-10-22T07:19:54 IST" duration-ms="994" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Login page opened successfully.]]>
+            </line>
+            <line>
+              <![CDATA[Screenshot saved for negative test: emptyUsername_Test_Input]]>
+            </line>
+            <line>
+              <![CDATA[PASS: Empty username was rejected.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- emptyUsername_Test -->
+        <test-method signature="emptyPassword_Test()[pri:3, instance:CRM_Vtiger_BITM_LoginPage.CRM_Vtiger_BITM_LoginPage_InvalidValidTest@dd0c991]" started-at="2026-10-22T07:19:54 IST" name="emptyPassword_Test" finished-at="2026-10-22T07:19:55 IST" duration-ms="979" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Login page opened successfully.]]>
+            </line>
+            <line>
+              <![CDATA[Screenshot saved for negative test: emptyPassword_Test_Input]]>
+            </line>
+            <line>
+              <![CDATA[PASS: Empty password was rejected.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- emptyPassword_Test -->
+        <test-method signature="invalidUsername_Test()[pri:4, instance:CRM_Vtiger_BITM_LoginPage.CRM_Vtiger_BITM_LoginPage_InvalidValidTest@dd0c991]" started-at="2026-10-22T07:19:55 IST" name="invalidUsername_Test" finished-at="2026-10-22T07:19:56 IST" duration-ms="1062" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Login page opened successfully.]]>
+            </line>
+            <line>
+              <![CDATA[Screenshot saved for negative test: invalidUsername_Test_Input]]>
+            </line>
+            <line>
+              <![CDATA[PASS: Invalid username was rejected.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- invalidUsername_Test -->
+        <test-method signature="invalidPassword_Test()[pri:5, instance:CRM_Vtiger_BITM_LoginPage.CRM_Vtiger_BITM_LoginPage_InvalidValidTest@dd0c991]" started-at="2026-10-22T07:19:56 IST" name="invalidPassword_Test" finished-at="2026-10-22T07:19:57 IST" duration-ms="986" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Login page opened successfully.]]>
+            </line>
+            <line>
+              <![CDATA[Screenshot saved for negative test: invalidPassword_Test_Input]]>
+            </line>
+            <line>
+              <![CDATA[PASS: Invalid password was rejected.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- invalidPassword_Test -->
+        <test-method signature="verifyLogoutOptionIsDisplayed()[pri:6, instance:CRM_Vtiger_BITM_LoginPage.CRM_Vtiger_BITM_LoginPage_InvalidValidTest@dd0c991]" started-at="2026-10-22T07:19:57 IST" name="verifyLogoutOptionIsDisplayed" finished-at="2026-10-22T07:20:26 IST" duration-ms="29422" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[PASS: Sign Out option is displayed.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyLogoutOptionIsDisplayed -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:CRM_Vtiger_BITM_LoginPage.CRM_Vtiger_BITM_LoginPage_InvalidValidTest@dd0c991]" started-at="2026-10-22T07:20:26 IST" name="closeBrowser" finished-at="2026-10-22T07:20:26 IST" duration-ms="168" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[After Class: Closing browser]]>
+            </line>
+            <line>
+              <![CDATA[Browser closed successfully.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- CRM_Vtiger_BITM_LoginPage.CRM_Vtiger_BITM_LoginPage_InvalidValidTest -->
+      <class name="CRM_Vtiger_BITM_FAQ.CRM_Vtiger_BITM_FAQTest">
+        <test-method is-config="true" signature="navigateToApp(java.lang.String)[pri:0, instance:CRM_Vtiger_BITM_FAQ.CRM_Vtiger_BITM_FAQTest@343570b7]" started-at="2026-10-22T07:18:06 IST" name="navigateToApp" finished-at="2026-10-22T07:18:37 IST" duration-ms="30927" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Before Class: Launching browser]]>
+            </line>
+            <line>
+              <![CDATA[Application opened: http://49.249.29.4:8888/index.php]]>
+            </line>
+            <line>
+              <![CDATA[Login form displayed successfully.]]>
+            </line>
+            <line>
+              <![CDATA[Login completed successfully.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- navigateToApp -->
+        <test-method signature="verifyFAQPageOpensTest()[pri:1, instance:CRM_Vtiger_BITM_FAQ.CRM_Vtiger_BITM_FAQTest@343570b7]" started-at="2026-10-22T07:18:37 IST" name="verifyFAQPageOpensTest" finished-at="2026-10-22T07:18:39 IST" duration-ms="1333" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyFAQPageOpensTest -->
+        <test-method signature="verifyFAQSearchTest()[pri:2, instance:CRM_Vtiger_BITM_FAQ.CRM_Vtiger_BITM_FAQTest@343570b7]" started-at="2026-10-22T07:18:39 IST" name="verifyFAQSearchTest" finished-at="2026-10-22T07:18:40 IST" duration-ms="1091" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyFAQSearchTest -->
+        <test-method signature="verifyFAQAnswerCanBeViewedTest()[pri:3, instance:CRM_Vtiger_BITM_FAQ.CRM_Vtiger_BITM_FAQTest@343570b7]" started-at="2026-10-22T07:18:40 IST" name="verifyFAQAnswerCanBeViewedTest" finished-at="2026-10-22T07:18:42 IST" duration-ms="1714" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyFAQAnswerCanBeViewedTest -->
+        <test-method signature="verifyNonexistentFAQSearchTest()[pri:4, instance:CRM_Vtiger_BITM_FAQ.CRM_Vtiger_BITM_FAQTest@343570b7]" started-at="2026-10-22T07:18:42 IST" name="verifyNonexistentFAQSearchTest" finished-at="2026-10-22T07:18:53 IST" duration-ms="11030" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyNonexistentFAQSearchTest -->
+        <test-method signature="verifyEmptyFAQSearchTest()[pri:5, instance:CRM_Vtiger_BITM_FAQ.CRM_Vtiger_BITM_FAQTest@343570b7]" started-at="2026-10-22T07:18:53 IST" name="verifyEmptyFAQSearchTest" finished-at="2026-10-22T07:18:54 IST" duration-ms="1288" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyEmptyFAQSearchTest -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:CRM_Vtiger_BITM_FAQ.CRM_Vtiger_BITM_FAQTest@343570b7]" started-at="2026-10-22T07:18:54 IST" name="closeBrowser" finished-at="2026-10-22T07:18:54 IST" duration-ms="182" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[After Class: Closing browser]]>
+            </line>
+            <line>
+              <![CDATA[Browser closed successfully.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- CRM_Vtiger_BITM_FAQ.CRM_Vtiger_BITM_FAQTest -->
+      <class name="CRM_Vtiger_BITM_HomePage.CRM_Vtiger_BITM_HomePageTest">
+        <test-method is-config="true" signature="navigateToApp(java.lang.String)[pri:0, instance:CRM_Vtiger_BITM_HomePage.CRM_Vtiger_BITM_HomePageTest@60015ef5]" started-at="2026-10-22T07:14:51 IST" name="navigateToApp" finished-at="2026-10-22T07:15:22 IST" duration-ms="30697" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Before Class: Launching browser]]>
+            </line>
+            <line>
+              <![CDATA[Application opened: http://49.249.29.4:8888/index.php]]>
+            </line>
+            <line>
+              <![CDATA[Login form displayed successfully.]]>
+            </line>
+            <line>
+              <![CDATA[Login completed successfully.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- navigateToApp -->
+        <test-method signature="verifyHomePageIsDisplayed()[pri:0, instance:CRM_Vtiger_BITM_HomePage.CRM_Vtiger_BITM_HomePageTest@60015ef5]" started-at="2026-10-22T07:15:22 IST" name="verifyHomePageIsDisplayed" finished-at="2026-10-22T07:15:22 IST" duration-ms="18" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHomePageIsDisplayed -->
+        <test-method signature="verifyLogoutOptionHiddenBeforeOpeningProfileMenu()[pri:0, instance:CRM_Vtiger_BITM_HomePage.CRM_Vtiger_BITM_HomePageTest@60015ef5]" started-at="2026-10-22T07:15:22 IST" name="verifyLogoutOptionHiddenBeforeOpeningProfileMenu" finished-at="2026-10-22T07:15:22 IST" duration-ms="142" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLogoutOptionHiddenBeforeOpeningProfileMenu -->
+        <test-method signature="verifyLogoutOptionIsDisplayed()[pri:0, instance:CRM_Vtiger_BITM_HomePage.CRM_Vtiger_BITM_HomePageTest@60015ef5]" started-at="2026-10-22T07:15:22 IST" name="verifyLogoutOptionIsDisplayed" finished-at="2026-10-22T07:15:22 IST" duration-ms="90" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLogoutOptionIsDisplayed -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:CRM_Vtiger_BITM_HomePage.CRM_Vtiger_BITM_HomePageTest@60015ef5]" started-at="2026-10-22T07:15:22 IST" name="closeBrowser" finished-at="2026-10-22T07:15:22 IST" duration-ms="161" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[After Class: Closing browser]]>
+            </line>
+            <line>
+              <![CDATA[Browser closed successfully.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- CRM_Vtiger_BITM_HomePage.CRM_Vtiger_BITM_HomePageTest -->
+      <class name="CRM_Vtiger_BITM_ServiceContracts.CRM_Vtiger_BITM_ServiceContractsTest">
+        <test-method is-config="true" signature="navigateToApp(java.lang.String)[pri:0, instance:CRM_Vtiger_BITM_ServiceContracts.CRM_Vtiger_BITM_ServiceContractsTest@157853da]" started-at="2026-10-22T07:18:54 IST" name="navigateToApp" finished-at="2026-10-22T07:19:26 IST" duration-ms="31889" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Before Class: Launching browser]]>
+            </line>
+            <line>
+              <![CDATA[Application opened: http://49.249.29.4:8888/index.php]]>
+            </line>
+            <line>
+              <![CDATA[Login form displayed successfully.]]>
+            </line>
+            <line>
+              <![CDATA[Login completed successfully.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- navigateToApp -->
+        <test-method signature="verifyServiceContractsPageOpensTest()[pri:1, instance:CRM_Vtiger_BITM_ServiceContracts.CRM_Vtiger_BITM_ServiceContractsTest@157853da]" started-at="2026-10-22T07:19:26 IST" name="verifyServiceContractsPageOpensTest" finished-at="2026-10-22T07:19:28 IST" duration-ms="1687" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyServiceContractsPageOpensTest -->
+        <test-method signature="verifyCreateServiceContractFormTest()[pri:2, instance:CRM_Vtiger_BITM_ServiceContracts.CRM_Vtiger_BITM_ServiceContractsTest@157853da]" started-at="2026-10-22T07:19:28 IST" name="verifyCreateServiceContractFormTest" finished-at="2026-10-22T07:19:29 IST" duration-ms="1396" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCreateServiceContractFormTest -->
+        <test-method signature="createServiceContractWithValidDetailsTest()[pri:3, instance:CRM_Vtiger_BITM_ServiceContracts.CRM_Vtiger_BITM_ServiceContractsTest@157853da]" started-at="2026-10-22T07:19:29 IST" name="createServiceContractWithValidDetailsTest" finished-at="2026-10-22T07:19:46 IST" duration-ms="17393" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createServiceContractWithValidDetailsTest -->
+        <test-method signature="verifyEmptySubjectRejectedTest()[pri:4, instance:CRM_Vtiger_BITM_ServiceContracts.CRM_Vtiger_BITM_ServiceContractsTest@157853da]" started-at="2026-10-22T07:19:46 IST" name="verifyEmptySubjectRejectedTest" finished-at="2026-10-22T07:19:48 IST" duration-ms="1610" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyEmptySubjectRejectedTest -->
+        <test-method signature="verifySearchWithNonexistentContractNumberTest()[pri:5, instance:CRM_Vtiger_BITM_ServiceContracts.CRM_Vtiger_BITM_ServiceContractsTest@157853da]" started-at="2026-10-22T07:19:48 IST" name="verifySearchWithNonexistentContractNumberTest" finished-at="2026-10-22T07:19:50 IST" duration-ms="1810" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySearchWithNonexistentContractNumberTest -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:CRM_Vtiger_BITM_ServiceContracts.CRM_Vtiger_BITM_ServiceContractsTest@157853da]" started-at="2026-10-22T07:19:50 IST" name="closeBrowser" finished-at="2026-10-22T07:19:50 IST" duration-ms="247" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[After Class: Closing browser]]>
+            </line>
+            <line>
+              <![CDATA[Browser closed successfully.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- CRM_Vtiger_BITM_ServiceContracts.CRM_Vtiger_BITM_ServiceContractsTest -->
+      <class name="CRM_Vtiger_BITM_Projects.CRM_Vtiger_BITM_ProjectsTest">
+        <test-method is-config="true" signature="navigateToApp(java.lang.String)[pri:0, instance:CRM_Vtiger_BITM_Projects.CRM_Vtiger_BITM_ProjectsTest@2f54a33d]" started-at="2026-10-22T07:15:22 IST" name="navigateToApp" finished-at="2026-10-22T07:15:53 IST" duration-ms="30463" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Before Class: Launching browser]]>
+            </line>
+            <line>
+              <![CDATA[Application opened: http://49.249.29.4:8888/index.php]]>
+            </line>
+            <line>
+              <![CDATA[Login form displayed successfully.]]>
+            </line>
+            <line>
+              <![CDATA[Login completed successfully.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- navigateToApp -->
+        <test-method signature="verifyProjectsPage()[pri:1, instance:CRM_Vtiger_BITM_Projects.CRM_Vtiger_BITM_ProjectsTest@2f54a33d]" started-at="2026-10-22T07:15:53 IST" name="verifyProjectsPage" finished-at="2026-10-22T07:15:54 IST" duration-ms="1468" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyProjectsPage -->
+        <test-method signature="verifyCreateProjectForm()[pri:2, instance:CRM_Vtiger_BITM_Projects.CRM_Vtiger_BITM_ProjectsTest@2f54a33d]" started-at="2026-10-22T07:15:54 IST" name="verifyCreateProjectForm" finished-at="2026-10-22T07:15:55 IST" duration-ms="1469" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCreateProjectForm -->
+        <test-method signature="verifyProjectNameMandatoryValidation()[pri:3, instance:CRM_Vtiger_BITM_Projects.CRM_Vtiger_BITM_ProjectsTest@2f54a33d]" started-at="2026-10-22T07:15:55 IST" name="verifyProjectNameMandatoryValidation" finished-at="2026-10-22T07:15:57 IST" duration-ms="1673" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyProjectNameMandatoryValidation -->
+        <test-method signature="verifySearchForNonExistingProject()[pri:4, instance:CRM_Vtiger_BITM_Projects.CRM_Vtiger_BITM_ProjectsTest@2f54a33d]" started-at="2026-10-22T07:15:57 IST" name="verifySearchForNonExistingProject" finished-at="2026-10-22T07:15:58 IST" duration-ms="1116" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySearchForNonExistingProject -->
+        <test-method signature="verifyCancelProjectCreation()[pri:5, instance:CRM_Vtiger_BITM_Projects.CRM_Vtiger_BITM_ProjectsTest@2f54a33d]" started-at="2026-10-22T07:15:58 IST" name="verifyCancelProjectCreation" finished-at="2026-10-22T07:16:04 IST" duration-ms="5676" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCancelProjectCreation -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:CRM_Vtiger_BITM_Projects.CRM_Vtiger_BITM_ProjectsTest@2f54a33d]" started-at="2026-10-22T07:16:04 IST" name="closeBrowser" finished-at="2026-10-22T07:16:04 IST" duration-ms="199" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[After Class: Closing browser]]>
+            </line>
+            <line>
+              <![CDATA[Browser closed successfully.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- CRM_Vtiger_BITM_Projects.CRM_Vtiger_BITM_ProjectsTest -->
+      <class name="CRM_Vtiger_BITM_ProjectMilestones.CRM_Vtiger_BITM_ProjectMilestonesTest">
+        <test-method is-config="true" signature="navigateToApp(java.lang.String)[pri:0, instance:CRM_Vtiger_BITM_ProjectMilestones.CRM_Vtiger_BITM_ProjectMilestonesTest@757acd7b]" started-at="2026-10-22T07:16:44 IST" name="navigateToApp" finished-at="2026-10-22T07:17:15 IST" duration-ms="30813" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Before Class: Launching browser]]>
+            </line>
+            <line>
+              <![CDATA[Application opened: http://49.249.29.4:8888/index.php]]>
+            </line>
+            <line>
+              <![CDATA[Login form displayed successfully.]]>
+            </line>
+            <line>
+              <![CDATA[Login completed successfully.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- navigateToApp -->
+        <test-method signature="verifyProjectMilestonesPage()[pri:1, instance:CRM_Vtiger_BITM_ProjectMilestones.CRM_Vtiger_BITM_ProjectMilestonesTest@757acd7b]" started-at="2026-10-22T07:17:15 IST" name="verifyProjectMilestonesPage" finished-at="2026-10-22T07:17:18 IST" duration-ms="2910" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyProjectMilestonesPage -->
+        <test-method signature="verifySearchMilestone()[pri:2, instance:CRM_Vtiger_BITM_ProjectMilestones.CRM_Vtiger_BITM_ProjectMilestonesTest@757acd7b]" started-at="2026-10-22T07:17:18 IST" name="verifySearchMilestone" finished-at="2026-10-22T07:17:35 IST" duration-ms="17212" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySearchMilestone -->
+        <test-method signature="verifyCreateMilestoneForm()[pri:3, instance:CRM_Vtiger_BITM_ProjectMilestones.CRM_Vtiger_BITM_ProjectMilestonesTest@757acd7b]" started-at="2026-10-22T07:17:35 IST" name="verifyCreateMilestoneForm" finished-at="2026-10-22T07:17:38 IST" duration-ms="3411" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCreateMilestoneForm -->
+        <test-method signature="verifyRelatedToLookup()[pri:4, instance:CRM_Vtiger_BITM_ProjectMilestones.CRM_Vtiger_BITM_ProjectMilestonesTest@757acd7b]" started-at="2026-10-22T07:17:38 IST" name="verifyRelatedToLookup" finished-at="2026-10-22T07:17:42 IST" duration-ms="3905" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyRelatedToLookup -->
+        <test-method signature="createMilestoneWithValidDetails()[pri:5, instance:CRM_Vtiger_BITM_ProjectMilestones.CRM_Vtiger_BITM_ProjectMilestonesTest@757acd7b]" started-at="2026-10-22T07:17:42 IST" name="createMilestoneWithValidDetails" finished-at="2026-10-22T07:17:56 IST" duration-ms="13764" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createMilestoneWithValidDetails -->
+        <test-method signature="verifyMilestoneNameMandatoryValidation()[pri:6, instance:CRM_Vtiger_BITM_ProjectMilestones.CRM_Vtiger_BITM_ProjectMilestonesTest@757acd7b]" started-at="2026-10-22T07:17:56 IST" name="verifyMilestoneNameMandatoryValidation" finished-at="2026-10-22T07:17:59 IST" duration-ms="3407" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Screenshot saved for negative test: verifyMilestoneNameMandatoryValidation]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyMilestoneNameMandatoryValidation -->
+        <test-method signature="verifyRelatedToMandatoryValidation()[pri:7, instance:CRM_Vtiger_BITM_ProjectMilestones.CRM_Vtiger_BITM_ProjectMilestonesTest@757acd7b]" started-at="2026-10-22T07:17:59 IST" name="verifyRelatedToMandatoryValidation" finished-at="2026-10-22T07:18:03 IST" duration-ms="3433" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Screenshot saved for negative test: verifyRelatedToMandatoryValidation]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyRelatedToMandatoryValidation -->
+        <test-method signature="verifyInvalidMilestoneDateValidation()[pri:8, instance:CRM_Vtiger_BITM_ProjectMilestones.CRM_Vtiger_BITM_ProjectMilestonesTest@757acd7b]" started-at="2026-10-22T07:18:03 IST" name="verifyInvalidMilestoneDateValidation" finished-at="2026-10-22T07:18:06 IST" duration-ms="3526" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Screenshot saved for negative test: verifyInvalidMilestoneDateValidation]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyInvalidMilestoneDateValidation -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:CRM_Vtiger_BITM_ProjectMilestones.CRM_Vtiger_BITM_ProjectMilestonesTest@757acd7b]" started-at="2026-10-22T07:18:06 IST" name="closeBrowser" finished-at="2026-10-22T07:18:06 IST" duration-ms="227" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[After Class: Closing browser]]>
+            </line>
+            <line>
+              <![CDATA[Browser closed successfully.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- CRM_Vtiger_BITM_ProjectMilestones.CRM_Vtiger_BITM_ProjectMilestonesTest -->
+    </test> <!-- VTiger CRM Integration Tests -->
+  </suite> <!-- VTiger CRM Integration Test Suite -->
+</testng-results>

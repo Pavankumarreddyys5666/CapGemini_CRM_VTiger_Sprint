@@ -1,0 +1,343 @@
+<html>
+<head>
+<title>TestNG:  Edge Tests</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Edge Tests</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>38/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Thu Oct 22 07:02:39 IST 2026</td>
+</tr>
+<tr><td>Total time:</td><td>367 seconds (367441 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='CRM_Vtiger_BITM_ProjectMilestones.CRM_Vtiger_BITM_ProjectMilestonesTest.verifyProjectMilestonesPage()'><b>verifyProjectMilestonesPage</b><br>Test class: CRM_Vtiger_BITM_ProjectMilestones.CRM_Vtiger_BITM_ProjectMilestonesTest</td>
+<td></td>
+<td>2</td>
+<td>CRM_Vtiger_BITM_ProjectMilestones.CRM_Vtiger_BITM_ProjectMilestonesTest@5fd4f8f5</td></tr>
+<tr>
+<td title='CRM_Vtiger_BITM_ServiceContracts.CRM_Vtiger_BITM_ServiceContractsTest.verifyCreateServiceContractFormTest()'><b>verifyCreateServiceContractFormTest</b><br>Test class: CRM_Vtiger_BITM_ServiceContracts.CRM_Vtiger_BITM_ServiceContractsTest</td>
+<td></td>
+<td>1</td>
+<td>CRM_Vtiger_BITM_ServiceContracts.CRM_Vtiger_BITM_ServiceContractsTest@2bfc268b</td></tr>
+<tr>
+<td title='CRM_Vtiger_BITM_ServiceContracts.CRM_Vtiger_BITM_ServiceContractsTest.verifyEmptySubjectRejectedTest()'><b>verifyEmptySubjectRejectedTest</b><br>Test class: CRM_Vtiger_BITM_ServiceContracts.CRM_Vtiger_BITM_ServiceContractsTest</td>
+<td></td>
+<td>1</td>
+<td>CRM_Vtiger_BITM_ServiceContracts.CRM_Vtiger_BITM_ServiceContractsTest@2bfc268b</td></tr>
+<tr>
+<td title='CRM_Vtiger_BITM_FAQ.CRM_Vtiger_BITM_FAQTest.verifyNonexistentFAQSearchTest()'><b>verifyNonexistentFAQSearchTest</b><br>Test class: CRM_Vtiger_BITM_FAQ.CRM_Vtiger_BITM_FAQTest</td>
+<td></td>
+<td>11</td>
+<td>CRM_Vtiger_BITM_FAQ.CRM_Vtiger_BITM_FAQTest@53976f5c</td></tr>
+<tr>
+<td title='CRM_Vtiger_BITM_Projects.CRM_Vtiger_BITM_ProjectsTest.verifySearchForNonExistingProject()'><b>verifySearchForNonExistingProject</b><br>Test class: CRM_Vtiger_BITM_Projects.CRM_Vtiger_BITM_ProjectsTest</td>
+<td></td>
+<td>1</td>
+<td>CRM_Vtiger_BITM_Projects.CRM_Vtiger_BITM_ProjectsTest@4e7912d8</td></tr>
+<tr>
+<td title='CRM_Vtiger_BITM_Projects.CRM_Vtiger_BITM_ProjectsTest.verifyCreateProjectForm()'><b>verifyCreateProjectForm</b><br>Test class: CRM_Vtiger_BITM_Projects.CRM_Vtiger_BITM_ProjectsTest</td>
+<td></td>
+<td>1</td>
+<td>CRM_Vtiger_BITM_Projects.CRM_Vtiger_BITM_ProjectsTest@4e7912d8</td></tr>
+<tr>
+<td title='CRM_Vtiger_BITM_ProjectTasks.CRM_Vtiger_BITM_ProjectTasksTest.verifyRelatedProjectMandatoryValidation()'><b>verifyRelatedProjectMandatoryValidation</b><br>Test class: CRM_Vtiger_BITM_ProjectTasks.CRM_Vtiger_BITM_ProjectTasksTest</td>
+<td></td>
+<td>1</td>
+<td>CRM_Vtiger_BITM_ProjectTasks.CRM_Vtiger_BITM_ProjectTasksTest@696da30b</td></tr>
+<tr>
+<td title='CRM_Vtiger_BITM_HomePage.CRM_Vtiger_BITM_HomePageTest.verifyHomePageIsDisplayed()'><b>verifyHomePageIsDisplayed</b><br>Test class: CRM_Vtiger_BITM_HomePage.CRM_Vtiger_BITM_HomePageTest</td>
+<td></td>
+<td>0</td>
+<td>CRM_Vtiger_BITM_HomePage.CRM_Vtiger_BITM_HomePageTest@72cde7cc</td></tr>
+<tr>
+<td title='CRM_Vtiger_BITM_ProjectTasks.CRM_Vtiger_BITM_ProjectTasksTest.createProjectTaskWithValidDetails()'><b>createProjectTaskWithValidDetails</b><br>Test class: CRM_Vtiger_BITM_ProjectTasks.CRM_Vtiger_BITM_ProjectTasksTest</td>
+<td></td>
+<td>3</td>
+<td>CRM_Vtiger_BITM_ProjectTasks.CRM_Vtiger_BITM_ProjectTasksTest@696da30b</td></tr>
+<tr>
+<td title='CRM_Vtiger_BITM_ServiceContracts.CRM_Vtiger_BITM_ServiceContractsTest.createServiceContractWithValidDetailsTest()'><b>createServiceContractWithValidDetailsTest</b><br>Test class: CRM_Vtiger_BITM_ServiceContracts.CRM_Vtiger_BITM_ServiceContractsTest</td>
+<td></td>
+<td>17</td>
+<td>CRM_Vtiger_BITM_ServiceContracts.CRM_Vtiger_BITM_ServiceContractsTest@2bfc268b</td></tr>
+<tr>
+<td title='CRM_Vtiger_BITM_Projects.CRM_Vtiger_BITM_ProjectsTest.verifyCancelProjectCreation()'><b>verifyCancelProjectCreation</b><br>Test class: CRM_Vtiger_BITM_Projects.CRM_Vtiger_BITM_ProjectsTest</td>
+<td></td>
+<td>5</td>
+<td>CRM_Vtiger_BITM_Projects.CRM_Vtiger_BITM_ProjectsTest@4e7912d8</td></tr>
+<tr>
+<td title='CRM_Vtiger_BITM_ProjectMilestones.CRM_Vtiger_BITM_ProjectMilestonesTest.verifyRelatedToLookup()'><b>verifyRelatedToLookup</b><br>Test class: CRM_Vtiger_BITM_ProjectMilestones.CRM_Vtiger_BITM_ProjectMilestonesTest</td>
+<td></td>
+<td>4</td>
+<td>CRM_Vtiger_BITM_ProjectMilestones.CRM_Vtiger_BITM_ProjectMilestonesTest@5fd4f8f5</td></tr>
+<tr>
+<td title='CRM_Vtiger_BITM_ProjectMilestones.CRM_Vtiger_BITM_ProjectMilestonesTest.verifyRelatedToMandatoryValidation()'><b>verifyRelatedToMandatoryValidation</b><br>Test class: CRM_Vtiger_BITM_ProjectMilestones.CRM_Vtiger_BITM_ProjectMilestonesTest<br/>
+<a href="#Output-628023028" onClick='toggleBox("Output-628023028", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-628023028" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-628023028">
+Screenshot saved for negative test: verifyRelatedToMandatoryValidation<br/>
+</div>
+</td>
+<td></td>
+<td>3</td>
+<td>CRM_Vtiger_BITM_ProjectMilestones.CRM_Vtiger_BITM_ProjectMilestonesTest@5fd4f8f5</td></tr>
+<tr>
+<td title='CRM_Vtiger_BITM_Projects.CRM_Vtiger_BITM_ProjectsTest.verifyProjectNameMandatoryValidation()'><b>verifyProjectNameMandatoryValidation</b><br>Test class: CRM_Vtiger_BITM_Projects.CRM_Vtiger_BITM_ProjectsTest</td>
+<td></td>
+<td>1</td>
+<td>CRM_Vtiger_BITM_Projects.CRM_Vtiger_BITM_ProjectsTest@4e7912d8</td></tr>
+<tr>
+<td title='CRM_Vtiger_BITM_LoginPage.CRM_Vtiger_BITM_LoginPage_InvalidValidTest.invalidUsername_Test()'><b>invalidUsername_Test</b><br>Test class: CRM_Vtiger_BITM_LoginPage.CRM_Vtiger_BITM_LoginPage_InvalidValidTest<br/>
+<a href="#Output-826721821" onClick='toggleBox("Output-826721821", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-826721821" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-826721821">
+Login page opened successfully.<br/>
+Screenshot saved for negative test: invalidUsername_Test_Input<br/>
+PASS: Invalid username was rejected.<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>CRM_Vtiger_BITM_LoginPage.CRM_Vtiger_BITM_LoginPage_InvalidValidTest@67080771</td></tr>
+<tr>
+<td title='CRM_Vtiger_BITM_ServiceContracts.CRM_Vtiger_BITM_ServiceContractsTest.verifyServiceContractsPageOpensTest()'><b>verifyServiceContractsPageOpensTest</b><br>Test class: CRM_Vtiger_BITM_ServiceContracts.CRM_Vtiger_BITM_ServiceContractsTest</td>
+<td></td>
+<td>1</td>
+<td>CRM_Vtiger_BITM_ServiceContracts.CRM_Vtiger_BITM_ServiceContractsTest@2bfc268b</td></tr>
+<tr>
+<td title='CRM_Vtiger_BITM_Projects.CRM_Vtiger_BITM_ProjectsTest.verifyProjectsPage()'><b>verifyProjectsPage</b><br>Test class: CRM_Vtiger_BITM_Projects.CRM_Vtiger_BITM_ProjectsTest</td>
+<td></td>
+<td>1</td>
+<td>CRM_Vtiger_BITM_Projects.CRM_Vtiger_BITM_ProjectsTest@4e7912d8</td></tr>
+<tr>
+<td title='CRM_Vtiger_BITM_LoginPage.CRM_Vtiger_BITM_LoginPage_ValidTest.verifyLoginWithValidCredentials()'><b>verifyLoginWithValidCredentials</b><br>Test class: CRM_Vtiger_BITM_LoginPage.CRM_Vtiger_BITM_LoginPage_ValidTest</td>
+<td></td>
+<td>10</td>
+<td>CRM_Vtiger_BITM_LoginPage.CRM_Vtiger_BITM_LoginPage_ValidTest@1eb5174b</td></tr>
+<tr>
+<td title='CRM_Vtiger_BITM_FAQ.CRM_Vtiger_BITM_FAQTest.verifyEmptyFAQSearchTest()'><b>verifyEmptyFAQSearchTest</b><br>Test class: CRM_Vtiger_BITM_FAQ.CRM_Vtiger_BITM_FAQTest</td>
+<td></td>
+<td>0</td>
+<td>CRM_Vtiger_BITM_FAQ.CRM_Vtiger_BITM_FAQTest@53976f5c</td></tr>
+<tr>
+<td title='CRM_Vtiger_BITM_LoginPage.CRM_Vtiger_BITM_LoginPage_InvalidValidTest.emptyUsernameAndPassword_Test()'><b>emptyUsernameAndPassword_Test</b><br>Test class: CRM_Vtiger_BITM_LoginPage.CRM_Vtiger_BITM_LoginPage_InvalidValidTest<br/>
+<a href="#Output-1652424095" onClick='toggleBox("Output-1652424095", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1652424095" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1652424095">
+Login page opened successfully.<br/>
+Screenshot saved for negative test: emptyUsernameAndPassword_Test_Input<br/>
+PASS: Empty username and password was rejected.<br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>CRM_Vtiger_BITM_LoginPage.CRM_Vtiger_BITM_LoginPage_InvalidValidTest@67080771</td></tr>
+<tr>
+<td title='CRM_Vtiger_BITM_HomePage.CRM_Vtiger_BITM_HomePageTest.verifyLogoutOptionIsDisplayed()'><b>verifyLogoutOptionIsDisplayed</b><br>Test class: CRM_Vtiger_BITM_HomePage.CRM_Vtiger_BITM_HomePageTest</td>
+<td></td>
+<td>0</td>
+<td>CRM_Vtiger_BITM_HomePage.CRM_Vtiger_BITM_HomePageTest@72cde7cc</td></tr>
+<tr>
+<td title='CRM_Vtiger_BITM_LoginPage.CRM_Vtiger_BITM_LoginPage_InvalidValidTest.emptyUsername_Test()'><b>emptyUsername_Test</b><br>Test class: CRM_Vtiger_BITM_LoginPage.CRM_Vtiger_BITM_LoginPage_InvalidValidTest<br/>
+<a href="#Output-758887059" onClick='toggleBox("Output-758887059", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-758887059" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-758887059">
+Login page opened successfully.<br/>
+Screenshot saved for negative test: emptyUsername_Test_Input<br/>
+PASS: Empty username was rejected.<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>CRM_Vtiger_BITM_LoginPage.CRM_Vtiger_BITM_LoginPage_InvalidValidTest@67080771</td></tr>
+<tr>
+<td title='CRM_Vtiger_BITM_FAQ.CRM_Vtiger_BITM_FAQTest.verifyFAQPageOpensTest()'><b>verifyFAQPageOpensTest</b><br>Test class: CRM_Vtiger_BITM_FAQ.CRM_Vtiger_BITM_FAQTest</td>
+<td></td>
+<td>1</td>
+<td>CRM_Vtiger_BITM_FAQ.CRM_Vtiger_BITM_FAQTest@53976f5c</td></tr>
+<tr>
+<td title='CRM_Vtiger_BITM_LoginPage.CRM_Vtiger_BITM_LoginPage_InvalidValidTest.invalidPassword_Test()'><b>invalidPassword_Test</b><br>Test class: CRM_Vtiger_BITM_LoginPage.CRM_Vtiger_BITM_LoginPage_InvalidValidTest<br/>
+<a href="#Output-152191608" onClick='toggleBox("Output-152191608", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-152191608" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-152191608">
+Login page opened successfully.<br/>
+Screenshot saved for negative test: invalidPassword_Test_Input<br/>
+PASS: Invalid password was rejected.<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>CRM_Vtiger_BITM_LoginPage.CRM_Vtiger_BITM_LoginPage_InvalidValidTest@67080771</td></tr>
+<tr>
+<td title='CRM_Vtiger_BITM_LoginPage.CRM_Vtiger_BITM_LoginPage_InvalidValidTest.emptyPassword_Test()'><b>emptyPassword_Test</b><br>Test class: CRM_Vtiger_BITM_LoginPage.CRM_Vtiger_BITM_LoginPage_InvalidValidTest<br/>
+<a href="#Output-245245365" onClick='toggleBox("Output-245245365", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-245245365" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-245245365">
+Login page opened successfully.<br/>
+Screenshot saved for negative test: emptyPassword_Test_Input<br/>
+PASS: Empty password was rejected.<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>CRM_Vtiger_BITM_LoginPage.CRM_Vtiger_BITM_LoginPage_InvalidValidTest@67080771</td></tr>
+<tr>
+<td title='CRM_Vtiger_BITM_ProjectTasks.CRM_Vtiger_BITM_ProjectTasksTest.verifyProjectTasksPage()'><b>verifyProjectTasksPage</b><br>Test class: CRM_Vtiger_BITM_ProjectTasks.CRM_Vtiger_BITM_ProjectTasksTest</td>
+<td></td>
+<td>1</td>
+<td>CRM_Vtiger_BITM_ProjectTasks.CRM_Vtiger_BITM_ProjectTasksTest@696da30b</td></tr>
+<tr>
+<td title='CRM_Vtiger_BITM_ProjectMilestones.CRM_Vtiger_BITM_ProjectMilestonesTest.verifyMilestoneNameMandatoryValidation()'><b>verifyMilestoneNameMandatoryValidation</b><br>Test class: CRM_Vtiger_BITM_ProjectMilestones.CRM_Vtiger_BITM_ProjectMilestonesTest<br/>
+<a href="#Output-2084100118" onClick='toggleBox("Output-2084100118", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-2084100118" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2084100118">
+Screenshot saved for negative test: verifyMilestoneNameMandatoryValidation<br/>
+</div>
+</td>
+<td></td>
+<td>3</td>
+<td>CRM_Vtiger_BITM_ProjectMilestones.CRM_Vtiger_BITM_ProjectMilestonesTest@5fd4f8f5</td></tr>
+<tr>
+<td title='CRM_Vtiger_BITM_ProjectTasks.CRM_Vtiger_BITM_ProjectTasksTest.verifyTaskMandatoryFieldValidation()'><b>verifyTaskMandatoryFieldValidation</b><br>Test class: CRM_Vtiger_BITM_ProjectTasks.CRM_Vtiger_BITM_ProjectTasksTest</td>
+<td></td>
+<td>1</td>
+<td>CRM_Vtiger_BITM_ProjectTasks.CRM_Vtiger_BITM_ProjectTasksTest@696da30b</td></tr>
+<tr>
+<td title='CRM_Vtiger_BITM_ProjectTasks.CRM_Vtiger_BITM_ProjectTasksTest.verifyCreateProjectTaskForm()'><b>verifyCreateProjectTaskForm</b><br>Test class: CRM_Vtiger_BITM_ProjectTasks.CRM_Vtiger_BITM_ProjectTasksTest</td>
+<td></td>
+<td>1</td>
+<td>CRM_Vtiger_BITM_ProjectTasks.CRM_Vtiger_BITM_ProjectTasksTest@696da30b</td></tr>
+<tr>
+<td title='CRM_Vtiger_BITM_ServiceContracts.CRM_Vtiger_BITM_ServiceContractsTest.verifySearchWithNonexistentContractNumberTest()'><b>verifySearchWithNonexistentContractNumberTest</b><br>Test class: CRM_Vtiger_BITM_ServiceContracts.CRM_Vtiger_BITM_ServiceContractsTest</td>
+<td></td>
+<td>1</td>
+<td>CRM_Vtiger_BITM_ServiceContracts.CRM_Vtiger_BITM_ServiceContractsTest@2bfc268b</td></tr>
+<tr>
+<td title='CRM_Vtiger_BITM_FAQ.CRM_Vtiger_BITM_FAQTest.verifyFAQSearchTest()'><b>verifyFAQSearchTest</b><br>Test class: CRM_Vtiger_BITM_FAQ.CRM_Vtiger_BITM_FAQTest</td>
+<td></td>
+<td>1</td>
+<td>CRM_Vtiger_BITM_FAQ.CRM_Vtiger_BITM_FAQTest@53976f5c</td></tr>
+<tr>
+<td title='CRM_Vtiger_BITM_FAQ.CRM_Vtiger_BITM_FAQTest.verifyFAQAnswerCanBeViewedTest()'><b>verifyFAQAnswerCanBeViewedTest</b><br>Test class: CRM_Vtiger_BITM_FAQ.CRM_Vtiger_BITM_FAQTest</td>
+<td></td>
+<td>1</td>
+<td>CRM_Vtiger_BITM_FAQ.CRM_Vtiger_BITM_FAQTest@53976f5c</td></tr>
+<tr>
+<td title='CRM_Vtiger_BITM_LoginPage.CRM_Vtiger_BITM_LoginPage_InvalidValidTest.verifyLogoutOptionIsDisplayed()'><b>verifyLogoutOptionIsDisplayed</b><br>Test class: CRM_Vtiger_BITM_LoginPage.CRM_Vtiger_BITM_LoginPage_InvalidValidTest<br/>
+<a href="#Output-1891106496" onClick='toggleBox("Output-1891106496", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1891106496" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1891106496">
+PASS: Sign Out option is displayed.<br/>
+</div>
+</td>
+<td></td>
+<td>28</td>
+<td>CRM_Vtiger_BITM_LoginPage.CRM_Vtiger_BITM_LoginPage_InvalidValidTest@67080771</td></tr>
+<tr>
+<td title='CRM_Vtiger_BITM_ProjectMilestones.CRM_Vtiger_BITM_ProjectMilestonesTest.verifySearchMilestone()'><b>verifySearchMilestone</b><br>Test class: CRM_Vtiger_BITM_ProjectMilestones.CRM_Vtiger_BITM_ProjectMilestonesTest</td>
+<td></td>
+<td>14</td>
+<td>CRM_Vtiger_BITM_ProjectMilestones.CRM_Vtiger_BITM_ProjectMilestonesTest@5fd4f8f5</td></tr>
+<tr>
+<td title='CRM_Vtiger_BITM_ProjectMilestones.CRM_Vtiger_BITM_ProjectMilestonesTest.verifyInvalidMilestoneDateValidation()'><b>verifyInvalidMilestoneDateValidation</b><br>Test class: CRM_Vtiger_BITM_ProjectMilestones.CRM_Vtiger_BITM_ProjectMilestonesTest<br/>
+<a href="#Output-1919277981" onClick='toggleBox("Output-1919277981", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1919277981" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1919277981">
+Screenshot saved for negative test: verifyInvalidMilestoneDateValidation<br/>
+</div>
+</td>
+<td></td>
+<td>3</td>
+<td>CRM_Vtiger_BITM_ProjectMilestones.CRM_Vtiger_BITM_ProjectMilestonesTest@5fd4f8f5</td></tr>
+<tr>
+<td title='CRM_Vtiger_BITM_ProjectMilestones.CRM_Vtiger_BITM_ProjectMilestonesTest.verifyCreateMilestoneForm()'><b>verifyCreateMilestoneForm</b><br>Test class: CRM_Vtiger_BITM_ProjectMilestones.CRM_Vtiger_BITM_ProjectMilestonesTest</td>
+<td></td>
+<td>3</td>
+<td>CRM_Vtiger_BITM_ProjectMilestones.CRM_Vtiger_BITM_ProjectMilestonesTest@5fd4f8f5</td></tr>
+<tr>
+<td title='CRM_Vtiger_BITM_HomePage.CRM_Vtiger_BITM_HomePageTest.verifyLogoutOptionHiddenBeforeOpeningProfileMenu()'><b>verifyLogoutOptionHiddenBeforeOpeningProfileMenu</b><br>Test class: CRM_Vtiger_BITM_HomePage.CRM_Vtiger_BITM_HomePageTest</td>
+<td></td>
+<td>0</td>
+<td>CRM_Vtiger_BITM_HomePage.CRM_Vtiger_BITM_HomePageTest@72cde7cc</td></tr>
+<tr>
+<td title='CRM_Vtiger_BITM_ProjectMilestones.CRM_Vtiger_BITM_ProjectMilestonesTest.createMilestoneWithValidDetails()'><b>createMilestoneWithValidDetails</b><br>Test class: CRM_Vtiger_BITM_ProjectMilestones.CRM_Vtiger_BITM_ProjectMilestonesTest</td>
+<td></td>
+<td>13</td>
+<td>CRM_Vtiger_BITM_ProjectMilestones.CRM_Vtiger_BITM_ProjectMilestonesTest@5fd4f8f5</td></tr>
+</table><p>
+</body>
+</html>

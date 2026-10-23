@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="VTiger CRM System Suite"
+	parallel="false"
+	preserve-order="true">
+
+
+	<listeners>
+		<listener
+			class-name="CRM_Vtiger_BITM_Listeners.CRM_Vtiger_BITM_ScreenshotListener" />
+	</listeners>
+
+
+	<test name="System Tests" preserve-order="true">
+
+		<classes>
+			<class
+				name="CRM_Vtiger_BITM_LoginPage.CRM_Vtiger_BITM_LoginPage_ValidTest" />
+			<class
+				name="CRM_Vtiger_BITM_LoginPage.CRM_Vtiger_BITM_LoginPage_InvalidValidTest" />
+			<class name="CRM_Vtiger_BITM_HomePage.CRM_Vtiger_BITM_HomePageTest" />
+			<class
+				name="CRM_Vtiger_BITM_ProjectMilestones.CRM_Vtiger_BITM_ProjectMilestonesTest" />
+			<class
+				name="CRM_Vtiger_BITM_ProjectTasks.CRM_Vtiger_BITM_ProjectTasksTest" />
+			<class name="CRM_Vtiger_BITM_Projects.CRM_Vtiger_BITM_ProjectsTest" />
+			<class name="CRM_Vtiger_BITM_FAQ.CRM_Vtiger_BITM_FAQTest" />
+			<class
+				name="CRM_Vtiger_BITM_ServiceContracts.CRM_Vtiger_BITM_ServiceContractsTest" />
+		</classes>
+
+	</test>
+</suite>
